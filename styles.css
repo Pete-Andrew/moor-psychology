@@ -1,0 +1,13 @@
+img {
+    display: block;
+    max-width: 100%;
+    }
+
+.nav {
+        position: fixed;
+        top: 0;
+        width: 100%; 
+        background-color: rgb(255, 255, 255);
+        /* height: 6vh;  */
+        padding: 1vh;
+    }
