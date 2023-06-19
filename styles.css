@@ -10,4 +10,13 @@ img {
         background-color: rgb(255, 255, 255);
         /* height: 6vh;  */
         padding: 1vh;
+        border-bottom: 1px green;
+    }
+
+#logo {
+        
+        padding-top: 2%;
+        margin: auto;
+        width: 10%;
+        
     }
