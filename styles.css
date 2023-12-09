@@ -13,6 +13,13 @@
 
 }
 
+h2 {
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    text-decoration-thickness:2px;
+    
+  }
+
 /* centers the logo and sets size */
 #ebbAndFlowLogoImg {
 
@@ -49,11 +56,31 @@
     padding: 2%;
     font-size: large;
     background-color: blueviolet;
+
+    text-align: justify;
+    text-justify: inter-word;
  }
  
 #div2 {
     background-color: aquamarine;
-    
+    padding: 2%; 
+    display: inline-block;
+ }
+
+ #whatToExpect{
+    width: 50%;
+    padding: 2%;
+    float: left;
+    text-align: justify;
+    text-justify: inter-word;
+ }
+
+ #aboutUs{
+    width: 50%;
+    padding: 2%;
+    float: right;
+    text-align: justify;
+    text-justify: inter-word;
  }
 
  #div3 {
