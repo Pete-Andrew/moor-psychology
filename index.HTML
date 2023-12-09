@@ -6,69 +6,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <title>Moor  Psychology</title>
+    <title>Ebb and Flow Psychology</title>
 </head>
 <body>
 
-
-    <ul class="nav nav-pills">
+<!-- bootstrap Nav pills -->
+<div id="navBar">    
+    
+  <ul id="navMenus" class="nav nav-pills">
 
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
+        
+        <!-- this is the chunk of code that makes a drop down menu -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">What we offer</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Weclome</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">
-            <strong>Children, young people and their families </strong> <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;Assessment <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;Therapy <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;Groups <br>
-            <strong>Adults </strong><br> 
-            &nbsp;&nbsp;&nbsp;&nbsp;Assessment <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;Therapy <br>
-            <strong>Professionals </strong><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;Consultation <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;Supervision <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;Training  <br>
-        		&nbsp;&nbsp;&nbsp;&nbsp;Groups  <br>
-     
-            </a></li>
-            <li><a class="dropdown-item" href="#">    Another action</a></li>
+            
+              <li><a class="dropdown-item" href="#">About Us</a></li>
+              <li><a class="dropdown-item" href="#">What you can expect</a></li>
+              <li><a class="dropdown-item" href="#">Meet the team</a></li>
+              
+          
+          </a>            
+            <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><a class="dropdown-item" href="#">    Something else here</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Separated link</a></li>
           </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+        <!--This is then end of the drop down code chunk-->
+        
+        <!-- and the start of a new one... -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">What we offer</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">
+            
+              <li><a class="dropdown-item" href="forChildren.html">For Children</a></li>
+              <li><a class="dropdown-item" href="forYoungFamilies.html">For Young Families</a></li>
+              <li><a class="dropdown-item" href="forParents.html">For Parents</a></li>
+              <li><a class="dropdown-item" href="forAdults.html">For Adults</a></li>
+          
+          </a>            
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-    
-      </ul>
 
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        <!--end of code chunk-->
+     </ul>
+</div>
 
-      <div id="logo">
-        <img src="images/treeLogo.jpg">
-        </div>
+<!-- this div contains the logo header -->
+<div>
+        <img id="ebbAndFlowLogoImg" src="images/ebbAndFlowLogo.png">
+</div>
 
-      <img src="images/hawthorn-trees-combestone-tor-dartmoor-experience.jpg">
-      
-      <div> "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+<!-- div1 contains a place holder image and the intro blurb -->
+<div id="div1">
+  <img id="hawthorn" src="images/hawthorn-trees-combestone-tor-dartmoor-experience.jpg">
+  
+  <p id="introWords"> Welcome to Ebb and Flow, we specialise in working with trauma, loss and bereavement offering a bespoke psychological support for children, parents, 
+        families and professionals based in Devon. We offer a range of individual, family and group therapies including EMDR 
+        (eye movement desensitisation and reprocessing therapy) and provide supervision and training to professionals.
+  </p>
+
+</div>
+
+<div id="div2">
+      <p>
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
         Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore 
-        et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, 
-        nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, 
-        vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? 
+        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+      </p>     
+</div>
 
-      </div>
-      
-      <img src="images/hawthorn-trees-combestone-tor-dartmoor-experience.jpg">
+<div id="div3">
+  <img id="hawthorn" src="images/hawthorn-trees-combestone-tor-dartmoor-experience.jpg">
+
+
+</div>
+
+<div id="contactID" class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="lname">Email Address</address></label>
+    <input type="text" id="lname" name="lastname" placeholder="email address">
+
+    <label for="lname">Phone Number</label>
+    <input type="text" id="lname" name="lastname" placeholder="prefered phone number">
+
+    <!-- <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select> -->
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Please enter message here" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
+
+<!-- theselfspace.com -->
+<!-- https://www.thepsychologistschild.com/ -->
+<!--   -->
