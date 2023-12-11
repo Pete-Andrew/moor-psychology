@@ -1,178 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <title>Ebb and Flow Psychology</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>Ebb and Flow Psychology</title>
 </head>
+
 <body>
 
-<!-- bootstrap Nav pills -->
-<div id="navBar">    
-    
-  <ul id="navMenus" class="nav nav-pills">
+  <!-- bootstrap Nav pills -->
+  <div id="navBar">
 
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        
-        <!-- this is the chunk of code that makes a drop down menu -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Weclome</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">
-            
-              <li><a class="dropdown-item" href="#div2">About Us</a></li>
-              <li><a class="dropdown-item" href="#">What you can expect</a></li>
-              <li><a class="dropdown-item" href="#">Meet the team</a></li>
-              
-          
-          </a>            
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">    Something else here</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Separated link</a></li>
-          </ul>
-        </li>
-        <!--This is then end of the drop down code chunk-->
-        
-        <!-- and the start of a new one... -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">What we offer</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">
-            
-              <li><a class="dropdown-item" href="forChildren.html">For Children</a></li>
-              <li><a class="dropdown-item" href="forYoungFamilies.html">For Young Families</a></li>
-              <li><a class="dropdown-item" href="forParents.html">For Parents</a></li>
-              <li><a class="dropdown-item" href="forAdults.html">For Adults</a></li>
-          
-          </a>            
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Separated link</a></li>
-          </ul>
-        </li>
+    <ul id="navMenus" class="nav nav-pills">
 
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+      </li>
+
+      <!-- this is the chunk of code that makes a drop down menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+          aria-expanded="false">Weclome</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">
+
+          <li><a class="dropdown-item" href="#div2">About Us</a></li>
+          <li><a class="dropdown-item" href="#">What you can expect</a></li>
+          <li><a class="dropdown-item" href="#">Meet the team</a></li>
+
+
+          </a>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#"> Something else here</a></li>
+          <li>
+            <hr class="dropdown-divider">
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </li>
+      <!--This is then end of the drop down code chunk-->
+
+      <!-- and the start of a new one... -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">What
+          we offer</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">
+
+          <li><a class="dropdown-item" href="whatWeOffer.html">For Children</a></li>
+          <li><a class="dropdown-item" href="whatWeOffer.html">For Young Families</a></li>
+          <li><a class="dropdown-item" href="whatWeOffer.html">For Parents</a></li>
+          <li><a class="dropdown-item" href="whatWeOffer.html">For Adults</a></li>
+
+          </a>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li>
+            <hr class="dropdown-divider">
           </li>
-        <!--end of code chunk-->
-     </ul>
-</div>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </li>
 
-<!-- this div contains the logo header -->
-<div>
-        <img id="ebbAndFlowLogoImg" src="images/ebbAndFlowLogo.png">
-</div>
-
-<!-- div1 contains a place holder image and the intro blurb -->
-<div id="div1">
-  <img id="hawthorn" src="images/hawthorn-trees-combestone-tor-dartmoor-experience.jpg">
-  
-  <h2> Welcome to Ebb and Flow</h2>
-  <p id="introWords">We specialise in working with trauma, loss and bereavement offering a bespoke psychological support for children, parents, 
-        families and professionals based in Devon. We offer a range of individual, family and group therapies including EMDR 
-        (eye movement desensitisation and reprocessing therapy) and provide supervision and training to professionals.
-  </p>
-
-</div>
-
-<div id="div2">
-  <div id="whatToExpect" >
-    <h2>What can you expect?</h2>
-    <br>
-      <p style="text-indent: 25px;">     
-        At Ebb and Flow Psychology we appreciate that our lives can be complex as we juggle multiple demands and the ebb and flow of our daily lives.  
-        At times this can be difficult for us all and can impact on our mental health.   
-        We recognise that our emotional worlds can be like the ocean tides, coming and going, 
-        sometimes calm and sometimes stormy pulled by forces often not known to our conscious minds. 
-        We appreciate that we may all need time to pause, reflect, process our emotions and take care of ourselves,.  
-        All too often, we can neglect our own well-being and struggle to give ourselves the care and compassion we need. 
-        We offer you the opportunity to slow down and explore your experiences and emotions in a safe place, free of judgment, 
-        supporting you to be with the ebb and flow of the tides of your life. 
-      </p>
-      <p style="text-indent: 25px;">
-        We recognise the importance of supporting individuals and families to process experiences and traumas which may be impacting on their relationships and lives in the present.  
-        We know that trauma may show up in all shapes and sizes and can impact on our lives in varied and individual ways.  
-      </p>
-      <p style="text-indent: 25px;">
-        At Ebb and Flow Psychology we specialise in caring for the whole family, recognising the importance of caring for parents in order to help you care for your children.  
-        We understand that children and adults experience things differently and support parents to deepen their understanding of their child’s world and strengthen their relationships. 
-        We believe it’s important to start early and offer support through pregnancy and to parents and their babies.   
-        We know that supporting our children to face challenges and being with the emotions this brings helps strengthen families and build resilience into the future.  
-        We recognise that family relationships can be challenging and support you to all to feel more connected.  
-        With many years of experience supporting children and their families we can are confident in engaging children of all ages in playful and creative ways. 
-            
-      </p>     
-</div>
-
-<div id="aboutUs" >
-    <h2 id="aboutUsH2">About us</h2>
-  <br>
-    <p style="text-indent: 25px;">     
-  As Clinical Psychologists we have specialist knowledge and training in mental health, so you can feel confident we have the skills to support you.  
-  We know everyone is individual and work with you around what is important to you and your family.  
-  We know happens to us can have a profound impact our lives and seek to support our clients to explore their experiences in a safe, creative and compassionate space.  
-  At Ebb and Flow we see our role as being alongside you on your therapeutic journey.  We work at your pace, helping you to gain a greater understanding of your life, 
-  emotions and experiences.  We support you to connect to those things that anchor you to safety and are precious in your life, supporting you to feel more at ease and empowered.    
-    </p>     
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+      <!--end of code chunk-->
+    </ul>
   </div>
 
+  <!-- this div contains the logo header -->
+  <div>
+    <img id="ebbAndFlowLogoImg" src="images/ebbAndFlowLogo.png">
+  </div>
 
-</div>
+  <!-- div1 contains a place holder image and the intro blurb -->
+  <div id="div1">
+    <img id="hawthorn" src="images/hawthorn-trees-combestone-tor-dartmoor-experience.jpg">
 
-<div id="div3">
-  <img id="hawthorn" src="images/hawthorn-trees-combestone-tor-dartmoor-experience.jpg">
+    <h2> Welcome to Ebb and Flow</h2>
+    <p id="introWords">We specialise in working with trauma, loss and bereavement offering a bespoke psychological
+      support for children, parents,
+      families and professionals based in Devon. We offer a range of individual, family and group therapies including
+      EMDR
+      (eye movement desensitisation and reprocessing therapy) and provide supervision and training to professionals.
+    </p>
+
+  </div>
+
+  <div id="div2">
+    <div id="whatToExpect">
+      <h2>What can you expect?</h2>
+      <br>
+      <p style="text-indent: 25px;">
+        At Ebb and Flow Psychology we appreciate that our lives can be complex as we juggle multiple demands and the ebb
+        and flow of our daily lives.
+        At times this can be difficult for us all and can impact on our mental health.
+        We recognise that our emotional worlds can be like the ocean tides, coming and going,
+        sometimes calm and sometimes stormy pulled by forces often not known to our conscious minds.
+        We appreciate that we may all need time to pause, reflect, process our emotions and take care of ourselves,.
+        All too often, we can neglect our own well-being and struggle to give ourselves the care and compassion we need.
+        We offer you the opportunity to slow down and explore your experiences and emotions in a safe place, free of
+        judgment,
+        supporting you to be with the ebb and flow of the tides of your life.
+      </p>
+      <p style="text-indent: 25px;">
+        We recognise the importance of supporting individuals and families to process experiences and traumas which may
+        be impacting on their relationships and lives in the present.
+        We know that trauma may show up in all shapes and sizes and can impact on our lives in varied and individual
+        ways.
+      </p>
+      <p style="text-indent: 25px;">
+        At Ebb and Flow Psychology we specialise in caring for the whole family, recognising the importance of caring
+        for parents in order to help you care for your children.
+        We understand that children and adults experience things differently and support parents to deepen their
+        understanding of their child’s world and strengthen their relationships.
+        We believe it’s important to start early and offer support through pregnancy and to parents and their babies.
+        We know that supporting our children to face challenges and being with the emotions this brings helps strengthen
+        families and build resilience into the future.
+        We recognise that family relationships can be challenging and support you to all to feel more connected.
+        With many years of experience supporting children and their families we can are confident in engaging children
+        of all ages in playful and creative ways.
+
+      </p>
+    </div>
+
+    <div id="aboutUs">
+      <h2 id="aboutUsH2">About us</h2>
+      <br>
+      <p style="text-indent: 25px;">
+        As Clinical Psychologists we have specialist knowledge and training in mental health, so you can feel confident
+        we have the skills to support you.
+        We know everyone is individual and work with you around what is important to you and your family.
+        We know happens to us can have a profound impact our lives and seek to support our clients to explore their
+        experiences in a safe, creative and compassionate space.
+        At Ebb and Flow we see our role as being alongside you on your therapeutic journey. We work at your pace,
+        helping you to gain a greater understanding of your life,
+        emotions and experiences. We support you to connect to those things that anchor you to safety and are precious
+        in your life, supporting you to feel more at ease and empowered.
+      </p>
+    </div>
 
 
-</div>
+  </div>
+
+  <div id="div3">
+    <img id="hawthorn" src="images/hawthorn-trees-combestone-tor-dartmoor-experience.jpg">
 
 
+  </div>
 
+  <!-- contact form -->
+  <div id="contactID" class="container">
+    <form action="action_page.php">
 
-<!-- contact form -->
-<div id="contactID" class="container">
-  <form action="action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <label for="lname">Email Address</address></label>
+      <input type="text" id="lname" name="lastname" placeholder="email address">
 
-    <label for="lname">Email Address</address></label>
-    <input type="text" id="lname" name="lastname" placeholder="email address">
+      <label for="lname">Phone Number</label>
+      <input type="text" id="lname" name="lastname" placeholder="prefered phone number">
 
-    <label for="lname">Phone Number</label>
-    <input type="text" id="lname" name="lastname" placeholder="prefered phone number">
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Please enter message here" style="height:200px"></textarea>
 
-    <!-- <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select> -->
+      <input type="submit" value="Submit">
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Please enter message here" style="height:200px"></textarea>
+    </form>
+    <!-- end of contact form -->
+  </div>
 
-    <input type="submit" value="Submit">
+  <!-- footer -->
+  <footer class="bg-body-tertiary text-center">
+    <!-- Grid container -->
+    <!-- <div class="container p-4"></div> -->
+    <!-- Grid container -->
 
-  </form>
-<!-- end of contact form -->
-  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2020 Copyright:
+      <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
 
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
