@@ -5,20 +5,31 @@
       width: 100%;
       background-color: rgb(255, 255, 255);
       padding: 1vh;
+      
     }
+
+
 
     /* this moves the dropdown menus within the nav bar */
     #navMenus {
       float: right;
-
     }
 
     h2 {
+      margin-left: auto;http://localhost:52330/index.html#
+      margin-right: auto;
       text-decoration: underline;
       text-underline-offset: 12px;
       text-decoration-thickness: 2px;
-
+      
     }
+    
+    h4 {
+      text-decoration: underline;
+      text-underline-offset: 12px;
+      text-decoration-thickness: 2px;
+    }
+
 
     /* centers the logo and sets size */
     #ebbAndFlowLogoImg {
@@ -30,30 +41,39 @@
       max-height: 30%;
       margin-top: 4%;
       margin-bottom: 2%;
-      background-color: blue;
+      /* background-color: blue; */
 
     }
 
+    #div0 {
+      background-color: #04AA6D;
+      width: 50%;
+      float: left;
+    }
+    
     /* div1 holds the left place holder and intro blurb on the right */
     /* display in-line block forces the div below down and prevents overlap */
     #div1 {
-      display: inline-block;
+      /* display: inline-block; */
       background-color: rgba(246, 255, 196, 0.459);
-      width: 100%;
+      width: 50%;
+      float: right;
     }
 
     /* place holder image on the left */
     #hawthorn {
-      max-width: 50%;
-      float: left;
+      width: 100%;    
       padding: 2%;
       background-color: blue;
     }
 
     /* intro text on the right */
     #introWords {
-      max-width: 50%;
-      float: right;
+      text-align:center; 
+      vertical-align: middle;
+      /* set the margin of the p tag in the parent div */
+      margin: 8%;
+            
       padding: 2%;
       font-size: large;
       background-color: blueviolet;
@@ -89,6 +109,8 @@
       background-color: rgba(168, 192, 32, 0.459);
       width: 100%;
     }
+
+/* CSS for the contact form */
 
     /* Style inputs with type="text", select elements and textareas */
     input[type=text],
@@ -141,4 +163,12 @@
 
     .whatWeOfferDiv {
       background-color: #45a049;
+      text-align: justify;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+
+    .whatWeOfferPara {
+      background-color: aquamarine;
+
     }
