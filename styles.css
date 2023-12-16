@@ -5,10 +5,12 @@
       width: 100%;
       background-color: rgb(255, 255, 255);
       padding: 1vh;
-      
+
     }
 
-
+    #navBarTitle {
+      display: inline;
+    }
 
     /* this moves the dropdown menus within the nav bar */
     #navMenus {
@@ -16,15 +18,15 @@
     }
 
     h2 {
-      margin-left: auto;http://localhost:52330/index.html#
-      margin-right: auto;
+      text-align: center;
       text-decoration: underline;
       text-underline-offset: 12px;
       text-decoration-thickness: 2px;
-      
+
     }
-    
+
     h4 {
+      text-align: center;
       text-decoration: underline;
       text-underline-offset: 12px;
       text-decoration-thickness: 2px;
@@ -41,49 +43,51 @@
       max-height: 30%;
       margin-top: 4%;
       margin-bottom: 2%;
-      /* background-color: blue; */
-
     }
 
+    /* contains the image in the 'welcome to ebb and flow' div (div1) */
     #div0 {
-      background-color: #04AA6D;
       width: 50%;
       float: left;
     }
-    
-    /* div1 holds the left place holder and intro blurb on the right */
+
+    /* CSS for the image in div0 */
+    #hawthorn {
+      width: 100%;
+      padding: 2%;
+      background-color: rgb(255, 255, 255);
+    }
+
+    /* div1 holds the left place holder image and intro blurb on the right */
     /* display in-line block forces the div below down and prevents overlap */
     #div1 {
       /* display: inline-block; */
-      background-color: rgba(246, 255, 196, 0.459);
+      padding: 2%;
+      /* background-color: rgba(175, 194, 67, 0.459); */
       width: 50%;
       float: right;
     }
 
-    /* place holder image on the left */
-    #hawthorn {
-      width: 100%;    
-      padding: 2%;
-      background-color: blue;
-    }
+
 
     /* intro text on the right */
     #introWords {
-      text-align:center; 
+      text-align: center;
       vertical-align: middle;
       /* set the margin of the p tag in the parent div */
       margin: 8%;
-            
+
       padding: 2%;
       font-size: large;
-      background-color: blueviolet;
+      background-color: #6fb0bb;
 
       text-align: justify;
       text-justify: inter-word;
     }
 
+    /* div2 holds the 'what can you expect, and about us sections*/
     #div2 {
-      background-color: aquamarine;
+      background-color: rgb(232, 243, 241);
       padding: 2%;
       display: inline-block;
     }
@@ -104,13 +108,20 @@
       text-justify: inter-word;
     }
 
+
     #div3 {
       display: inline-block;
-      background-color: rgba(168, 192, 32, 0.459);
+      background-color: rgba(241, 162, 44, 0.459);
       width: 100%;
     }
 
-/* CSS for the contact form */
+    /* the div containing the contact form */
+    #contactID {
+      float: right;
+      width: 50%;
+    }
+
+    /* CSS for the contact form */
 
     /* Style inputs with type="text", select elements and textareas */
     input[type=text],
@@ -158,17 +169,32 @@
     }
 
     footer {
-      margin-top: 1%;
+
+      margin-top: auto;
     }
 
     .whatWeOfferDiv {
-      background-color: #45a049;
+      background-color: #6fb0bb;
       text-align: justify;
       padding-left: 10%;
       padding-right: 10%;
     }
 
     .whatWeOfferPara {
-      background-color: aquamarine;
+      background-color: rgb(232, 243, 241);
+    }
 
+    #bottomMainPageDiv {
+      display: inline-block;
+      width: 100%;
+    }
+
+    #bottomDivImg {
+      width: 50%;
+      float: left;
+    }
+
+    #lastImg {
+
+      width: 100%;
     }
