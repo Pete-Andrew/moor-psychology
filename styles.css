@@ -119,6 +119,9 @@
     #contactID {
       float: right;
       width: 50%;
+      background-color: #6fb0bb;
+      /* margin top moves it to be inline with bottom left image */
+      margin-top: 0.5%;
     }
 
     /* CSS for the contact form */
@@ -160,17 +163,12 @@
       background-color: #45a049;
     }
 
-    /* Add a background color and some padding around the form */
+    /* Adds a background color and some padding around the form */
     .container {
       width: 100%;
       border-radius: 5px;
       background-color: #f2f2f2;
       padding: 20px;
-    }
-
-    footer {
-
-      margin-top: auto;
     }
 
     .whatWeOfferDiv {
@@ -184,17 +182,33 @@
       background-color: rgb(232, 243, 241);
     }
 
+    /* this is the formatting for the index.html last div, it forces the footer down to the bottom*/
     #bottomMainPageDiv {
       display: inline-block;
       width: 100%;
     }
-
+/* the div containing the last image */
     #bottomDivImg {
       width: 50%;
       float: left;
     }
-
+/* the last image itself */
     #lastImg {
-
       width: 100%;
+      padding: 1%;
+    }
+    
+    footer {
+      margin-top: auto;
+    }
+
+    #meetTheTeamBlurbDiv {
+      background-color: #b2e6b5;
+      display: inline-block;
+    }
+
+    #meetTheTeamPara {
+      width: 50%;
+      text-align: justify;
+      padding: 4%;
     }
