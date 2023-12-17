@@ -32,34 +32,42 @@
       text-decoration-thickness: 2px;
     }
 
+        /* contains the image in the 'welcome to ebb and flow' div (div1) */
+        #div0 {
+          margin-bottom: 4%;
+          width: 50%;
+          float: left;
+          background-color: #6fb0bb;
+        }
+   
 
     /* centers the logo and sets size */
-    #ebbAndFlowLogoImg {
+    #logoDiv {
+      display: inline-block;    
+      }
 
+    #ebbAndFlowLogoImg {
+/* margin auto and display block center an image in a div */
+      margin: auto;
       display: block;
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 30%;
-      max-height: 30%;
-      margin-top: 4%;
+
+      max-width: 35%;
+      max-height: 35%;
+      margin-top: 70px;
       margin-bottom: 2%;
     }
 
-    /* contains the image in the 'welcome to ebb and flow' div (div1) */
-    #div0 {
-      width: 50%;
-      float: left;
-    }
 
     /* CSS for the image in div0 */
-    #hawthorn {
+    #firstImg {
       width: 100%;
       padding: 2%;
       background-color: rgb(255, 255, 255);
-    }
+   }
 
-    /* div1 holds the left place holder image and intro blurb on the right */
-    /* display in-line block forces the div below down and prevents overlap */
+   
+   /* div1 holds the left place holder image and intro blurb on the right */
+   /* display in-line block forces the div below down and prevents overlap */
     #div1 {
       /* display: inline-block; */
       padding: 2%;
@@ -213,3 +221,38 @@
       text-align: justify;
       padding: 4%;
     }
+
+    /* Media Queries below.... */
+
+
+   /* hides the last image on the index page when < 600px */
+   @media (max-width: 600px) {
+    img#lastImg {
+      display: none;
+    }
+    img#firstImg {
+      display: none;
+    }
+    div#div1 {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  /* media queries for the ebb and flow logo */
+  @media (max-width: 780px) {
+    img#ebbAndFlowLogoImg {
+      margin-top: 90px;
+      max-width: 50%;
+      max-height: 50%;
+
+    }
+  }
+
+  @media (max-width: 520px) {
+    img#ebbAndFlowLogoImg {
+      margin-top: 125px;
+      max-width: 60%;
+      max-height: 60%;
+    }
+  }
