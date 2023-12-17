@@ -180,6 +180,7 @@
 
     .whatWeOfferPara {
       background-color: rgb(232, 243, 241);
+      padding: 5%;
     }
 
     /* this is the formatting for the index.html last div, it forces the footer down to the bottom*/
