@@ -237,6 +237,9 @@
       display: block;
       width: 100%;
     }
+    div#contactID {
+      width: 100%;
+    }
   }
 
   /* media queries for the ebb and flow logo */
