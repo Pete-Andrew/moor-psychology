@@ -242,7 +242,7 @@
     }
   }
 
-  /* media queries for the ebb and flow logo */
+  /* media queries for the ebb and flow logo, this has 2 break points */
   @media (max-width: 780px) {
     img#ebbAndFlowLogoImg {
       margin-top: 90px;
@@ -251,11 +251,28 @@
 
     }
   }
-
-  @media (max-width: 520px) {
+    @media (max-width: 520px) {
     img#ebbAndFlowLogoImg {
       margin-top: 125px;
       max-width: 60%;
       max-height: 60%;
     }
   }
+
+/* hides the div containing about us a what to expect */
+  @media (max-width: 520px) {
+    #div2 {
+    display: none;    
+  }
+  }
+
+/* reveals the hidden about us and what to expect divs */
+  
+@media (min-width: 520px) {
+  #whatToExpectHiddenDiv {
+  display: none;    
+}
+  #aboutUsHiddenDiv {
+  display: none;  
+  }
+}
