@@ -222,7 +222,13 @@
       padding: 4%;
     }
 
-    /* Media Queries below.... */
+    #meetTheTeamBlurbImg { 
+      width: 50%;
+      float: right;
+      padding: 4%;
+    }
+
+    /* Media Queries below............................................ */
 
 
    /* hides the last image on the index page when < 600px */
@@ -266,7 +272,7 @@
   }
   }
 
-/* reveals the hidden about us and what to expect divs */
+/* reveals the hidden about us and what to expect divs on the first page */
   
 @media (min-width: 520px) {
   #whatToExpectHiddenDiv {
