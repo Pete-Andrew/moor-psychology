@@ -8,6 +8,16 @@
 
     }
 
+    /* text colour in the nav bar. Needs to have "!importat" to override bootstrap settings */
+    .nav-link {
+      color: black !important;
+    }
+
+    /* .nav-link.active targets the coloured nav button */
+    .nav-link.active {
+      background-color: #6fb0bb !important;
+    }
+
     #navBarTitle {
       display: inline;
     }
@@ -22,7 +32,7 @@
       text-decoration: underline;
       text-underline-offset: 12px;
       text-decoration-thickness: 2px;
-
+      =
     }
 
     h4 {
@@ -32,22 +42,22 @@
       text-decoration-thickness: 2px;
     }
 
-        /* contains the image in the 'welcome to ebb and flow' div (div1) */
-        #div0 {
-          margin-bottom: 4%;
-          width: 50%;
-          float: left;
-          background-color: #6fb0bb;
-        }
-   
+    /* contains the image in the 'welcome to ebb and flow' div (div1) */
+    #div0 {
+      margin-bottom: 4%;
+      width: 50%;
+      float: left;
+      background-color: #6fb0bb;
+    }
+
 
     /* centers the logo and sets size */
     #logoDiv {
-      display: inline-block;    
-      }
+      display: inline-block;
+    }
 
     #ebbAndFlowLogoImg {
-/* margin auto and display block center an image in a div */
+      /* margin auto and display block center an image in a div */
       margin: auto;
       display: block;
 
@@ -57,17 +67,15 @@
       margin-bottom: 2%;
     }
 
-
     /* CSS for the image in div0 */
     #firstImg {
       width: 100%;
       padding: 2%;
       background-color: rgb(255, 255, 255);
-   }
+    }
 
-   
-   /* div1 holds the left place holder image and intro blurb on the right */
-   /* display in-line block forces the div below down and prevents overlap */
+    /* div1 holds the left place holder image and intro blurb on the right */
+    /* display in-line block forces the div below down and prevents overlap */
     #div1 {
       /* display: inline-block; */
       padding: 2%;
@@ -75,8 +83,6 @@
       width: 50%;
       float: right;
     }
-
-
 
     /* intro text on the right */
     #introWords {
@@ -115,7 +121,6 @@
       text-align: justify;
       text-justify: inter-word;
     }
-
 
     #div3 {
       display: inline-block;
@@ -177,18 +182,21 @@
       border-radius: 5px;
       background-color: #f2f2f2;
       padding: 20px;
-    }
+      }
 
     .whatWeOfferDiv {
+      width: 100%;
       background-color: #6fb0bb;
       text-align: justify;
-      padding-left: 10%;
-      padding-right: 10%;
+      /* padding-left: 10%;
+      padding-right: 10%; */
+     
     }
 
     .whatWeOfferPara {
       background-color: rgb(232, 243, 241);
       padding: 5%;
+      
     }
 
     /* this is the formatting for the index.html last div, it forces the footer down to the bottom*/
@@ -196,17 +204,19 @@
       display: inline-block;
       width: 100%;
     }
-/* the div containing the last image */
+
+    /* the div containing the last image */
     #bottomDivImg {
       width: 50%;
       float: left;
     }
-/* the last image itself */
+
+    /* the last image itself */
     #lastImg {
       width: 100%;
       padding: 1%;
     }
-    
+
     footer {
       margin-top: auto;
     }
@@ -225,7 +235,7 @@
       padding: 4%;
     }
 
-    #meetTheTeamBlurbImg { 
+    #meetTheTeamBlurbImg {
       width: 50%;
       float: left;
       padding: 4%;
@@ -245,62 +255,67 @@
     /* Media Queries below............................................ */
 
 
-   /* hides images when page's are < 600px */
-   @media (max-width: 520px) {
-    img#lastImg {
-      display: none;
-    }
-    img#firstImg {
-      display: none;
-    }
-    img#meetTheTeamBlurbImg {
-      display: none;
-    }
-   /* makes the corresoponding text in the divs with images 100% width */
-
-    div#div1 {
-      display: block;
-      width: 100%;
-      text-align: justify;
-    }
-    div#contactID {
-      width: 100%;
-      text-align: justify;
-    }
-  }
-
-  /* media queries for the ebb and flow logo, this has 2 break points */
-  @media (max-width: 780px) {
-    img#ebbAndFlowLogoImg {
-      margin-top: 90px;
-      max-width: 50%;
-      max-height: 50%;
-
-    }
-  }
+    /* hides images when page's are < 600px */
     @media (max-width: 520px) {
-    img#ebbAndFlowLogoImg {
-      margin-top: 125px;
-      max-width: 60%;
-      max-height: 60%;
+      img#lastImg {
+        display: none;
+      }
+
+      img#firstImg {
+        display: none;
+      }
+
+      img#meetTheTeamBlurbImg {
+        display: none;
+      }
+
+      /* makes the corresoponding text in the divs with images 100% width */
+
+      div#div1 {
+        display: block;
+        width: 100%;
+        text-align: justify;
+      }
+
+      div#contactID {
+        width: 100%;
+        text-align: justify;
+      }
     }
-  }
 
-/* hides the div containing about us a what to expect */
-  @media (max-width: 520px) {
-    #div2 {
-    display: none;    
-  }
-  }
+    /* media queries for the ebb and flow logo, this has 2 break points */
+    @media (max-width: 780px) {
+      img#ebbAndFlowLogoImg {
+        margin-top: 90px;
+        max-width: 50%;
+        max-height: 50%;
 
-/* reveals the hidden about us and what to expect divs on the first page */
-  
-@media (min-width: 520px) {
-  #whatToExpectHiddenDiv {
-  display: none; 
-}
-  #aboutUsHiddenDiv {
-  display: none;  
-  }
-}
+      }
+    }
 
+    @media (max-width: 520px) {
+      img#ebbAndFlowLogoImg {
+        margin-top: 125px;
+        max-width: 60%;
+        max-height: 60%;
+      }
+    }
+
+    /* hides the div containing about us a what to expect */
+    @media (max-width: 520px) {
+      #div2 {
+        display: none;
+      }
+    }
+
+    /* reveals the hidden about us and what to expect divs on the first page */
+
+    @media (min-width: 520px) {
+      #whatToExpectHiddenDiv {
+        display: none;
+      }
+
+      #aboutUsHiddenDiv {
+        display: none;
+      }
+    }
