@@ -211,40 +211,61 @@
       margin-top: auto;
     }
 
+    /* meet the team page */
     #meetTheTeamBlurbDiv {
       background-color: #b2e6b5;
       display: inline-block;
+      width: 100%;
     }
 
     #meetTheTeamPara {
       width: 50%;
+      float: right;
       text-align: justify;
       padding: 4%;
     }
 
     #meetTheTeamBlurbImg { 
       width: 50%;
-      float: right;
+      float: left;
       padding: 4%;
+    }
+
+    /* adds CSS to hidden text divs that become visible on small screens*/
+    #whatToExpectHiddenDiv {
+      padding: 4%;
+      text-align: justify;
+    }
+
+    #aboutUsHiddenDiv {
+      padding: 4%;
+      text-align: justify;
     }
 
     /* Media Queries below............................................ */
 
 
-   /* hides the last image on the index page when < 600px */
-   @media (max-width: 600px) {
+   /* hides images when page's are < 600px */
+   @media (max-width: 520px) {
     img#lastImg {
       display: none;
     }
     img#firstImg {
       display: none;
     }
+    img#meetTheTeamBlurbImg {
+      display: none;
+    }
+   /* makes the corresoponding text in the divs with images 100% width */
+
     div#div1 {
       display: block;
       width: 100%;
+      text-align: justify;
     }
     div#contactID {
       width: 100%;
+      text-align: justify;
     }
   }
 
@@ -276,9 +297,10 @@
   
 @media (min-width: 520px) {
   #whatToExpectHiddenDiv {
-  display: none;    
+  display: none; 
 }
   #aboutUsHiddenDiv {
   display: none;  
   }
 }
+
