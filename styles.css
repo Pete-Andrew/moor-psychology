@@ -281,6 +281,12 @@
         width: 100%;
         text-align: justify;
       }
+
+      p#meetTheTeamPara {
+        width: 100%;
+        text-align: justify;
+        padding: 4%;
+      }
     }
 
     /* media queries for the ebb and flow logo, this has 2 break points */
