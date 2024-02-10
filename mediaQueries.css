@@ -1,0 +1,87 @@
+/* Media Queries below............................................ */
+
+
+    /* hides images when page's are < 600px */
+    @media (max-width: 520px) {
+        img#lastImg {
+          display: none;
+        }
+  
+        img#firstImg {
+          display: none;
+        }
+  
+        img#meetTheTeamBlurbImg {
+          display: none;
+        }
+  
+        /* makes the corresoponding text in the divs with images 100% width */
+  
+        div#div1 {
+          display: block;
+          width: 100%;
+          text-align: justify;
+        }
+  
+        div#contactID {
+          width: 100%;
+          text-align: justify;
+        }
+  
+        p#meetTheTeamPara {
+          width: 100%;
+          text-align: justify;
+          padding: 4%;
+        }
+      }
+  
+      /* media queries for the ebb and flow logo, this has 2 break points */
+      @media (max-width: 780px) {
+        img#ebbAndFlowLogoImg {
+          margin-top: 2%;
+          margin-bottom: 2%;
+          max-width: 50%;
+          max-height: 50%;
+  
+        }
+      }
+  
+      @media (max-width: 670px) {
+        img#ebbAndFlowLogoImg {
+            margin-top: 2%;
+            margin-bottom: 2%;
+          max-width: 60%;
+          max-height: 60%;
+        }
+
+        .blockingDivForPageTop {
+            height: 100px;
+            
+          }
+      }
+  
+      /* hides the div containing about us a what to expect */
+      @media (max-width: 670px) {
+        #div2 {
+          display: none;
+        }
+      }
+
+      @media (max-width: 510px) {
+        .blockingDivForPageTop {
+            height: 130px;
+            
+          }
+      }
+  
+      /* reveals the hidden about us and what to expect divs on the first page */
+  
+      @media (min-width: 520px) {
+        #whatToExpectHiddenDiv {
+          display: none;
+        }
+  
+        #aboutUsHiddenDiv {
+          display: none;
+        }
+      }

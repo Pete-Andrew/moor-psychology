@@ -1,0 +1,20 @@
+@font-face {
+    font-family: zap1;
+    src: url(fonts/ZapfinoExtraLT-One.otf);
+  }
+      
+  @font-face {
+    font-family: zap2;
+    src: url(fonts/ZapfinoExtraLT-Two.otf);
+  }
+      
+  @font-face {
+    font-family: zap3;
+    src: url(fonts/ZapfinoExtraLTPro.otf);
+  }
+      
+  @font-face {
+    font-family: zap4;
+    src: url(fonts/ZapfinoForteLTPro.otf);
+  }
+      

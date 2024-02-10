@@ -1,327 +1,289 @@
-    /* keeps the nav bar attached to the top of the screen  */
-    #navBar {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background-color: rgb(255, 255, 255);
-      padding: 1vh;
+/* keeps the nav bar attached to the top of the screen  */
+#navBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 1vh;
 
-    }
+}
 
-    /* text colour in the nav bar. Needs to have "!importat" to override bootstrap settings */
-    .nav-link {
-      color: black !important;
-    }
+/* text colour in the nav bar. Needs to have "!important" to override bootstrap settings */
+.nav-link {
+  color: black !important;
+}
 
-    /* .nav-link.active targets the coloured nav button */
-    .nav-link.active {
-      background-color: #6fb0bb !important;
-    }
+/* .nav-link.active targets the coloured nav button */
+.nav-link.active {
+  background-color: #6fb0bb !important;
+}
 
-    #navBarTitle {
-      display: inline;
-    }
+#navBarTitle {
+  display: inline;
+  font-family: zap4;
+}
 
-    /* this moves the dropdown menus within the nav bar */
-    #navMenus {
-      float: right;
-    }
+/* this moves the dropdown menus to the right within the nav bar */
+#navMenus {
+  float: right;
+}
 
-    h2 {
-      text-align: center;
-      text-decoration: underline;
-      text-underline-offset: 12px;
-      text-decoration-thickness: 2px;
-      =
-    }
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-thickness: 2px;
 
-    h4 {
-      text-align: center;
-      text-decoration: underline;
-      text-underline-offset: 12px;
-      text-decoration-thickness: 2px;
-    }
+  font-family: zap4;
+  font-size: 60pt;
+  font-weight: 400;
+  
+}
 
-    /* contains the image in the 'welcome to ebb and flow' div (div1) */
-    #div0 {
-      margin-bottom: 4%;
-      width: 50%;
-      float: left;
-      background-color: #6fb0bb;
-    }
+h4 {
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-thickness: 2px;
+  /* background: radial-gradient(#ffffff, transparent); */
+}
 
+/* this pads the top of the document and prevents the nav bar covering */
+.blockingDivForPageTop {
+  height: 70px;
+}
 
-    /* centers the logo and sets size */
-    #logoDiv {
-      display: inline-block;
-    }
+/* contains the image in the 'welcome to ebb and flow' div (div1) */
+#div0 {
+  margin-bottom: 4%;
+  width: 50%;
+  float: left;
+  background-color: #6fb0bb;
+  
+}
 
-    #ebbAndFlowLogoImg {
-      /* margin auto and display block center an image in a div */
-      margin: auto;
-      display: block;
+/* centers the logo and sets size */
+#logoDiv {
+  display: inline-block;
+  /* adds a background image to the div */
+  background-image: url(images/water.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
 
-      max-width: 35%;
-      max-height: 35%;
-      margin-top: 70px;
-      margin-bottom: 2%;
-    }
+#ebbAndFlowLogoImg {
+  
+background-image: url(images/ebbAndFlowLogo.png), radial-gradient(rgba(255, 255, 255),  transparent 600% );
+width: 100%;
+height: 200px;
+text-align: center;
+  
+  
+  /* margin auto and display block center an image in a div */
+  /* background-image: url(images/ebbAndFlowLogo.png);
+  height: 200px;
+  width: 60%;
+    */
 
-    /* CSS for the image in div0 */
-    #firstImg {
-      width: 100%;
-      padding: 2%;
-      background-color: rgb(255, 255, 255);
-    }
+  /* centers the image in the div */
+  margin: auto;
+  display: block;
 
-    /* div1 holds the left place holder image and intro blurb on the right */
-    /* display in-line block forces the div below down and prevents overlap */
-    #div1 {
-      /* display: inline-block; */
-      padding: 2%;
-      /* background-color: rgba(175, 194, 67, 0.459); */
-      width: 50%;
-      float: right;
-    }
+  margin-top: 2%;
+  margin-bottom: 2%;
+ 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: #f2f2f2;
+   */
+}
 
-    /* intro text on the right */
-    #introWords {
-      text-align: center;
-      vertical-align: middle;
-      /* set the margin of the p tag in the parent div */
-      margin: 8%;
+/* CSS for the image in div0 */
+#firstImg {
+  width: 100%;
+  padding: 2%;
+  background-color: rgb(255, 255, 255);
+}
 
-      padding: 2%;
-      font-size: large;
-      background-color: #6fb0bb;
+/* div1 holds the left place holder image and intro blurb on the right */
+/* display in-line block forces the div below down and prevents overlap */
+#div1 {
+  /* display: inline-block; */
+  padding: 2%;
+  /* background-color: rgba(175, 194, 67, 0.459); */
+  width: 50%;
+  float: right;
+}
 
-      text-align: justify;
-      text-justify: inter-word;
-    }
+/* intro text on the right */
+#introWords {
+  text-align: center;
+  vertical-align: middle;
+  /* set the margin of the p tag in the parent div */
+  margin: 8%;
 
-    /* div2 holds the 'what can you expect, and about us sections*/
-    #div2 {
-      background-color: rgb(232, 243, 241);
-      padding: 2%;
-      display: inline-block;
-    }
+  padding: 2%;
+  font-size: large;
+  background-color: #6fb0bb;
 
-    #whatToExpect {
-      width: 50%;
-      padding: 2%;
-      float: left;
-      text-align: justify;
-      text-justify: inter-word;
-    }
+  text-align: justify;
+  text-justify: inter-word;
 
-    #aboutUs {
-      width: 50%;
-      padding: 2%;
-      float: right;
-      text-align: justify;
-      text-justify: inter-word;
-    }
+}
 
-    #div3 {
-      display: inline-block;
-      background-color: rgba(241, 162, 44, 0.459);
-      width: 100%;
-    }
+/* div2 holds the 'what can you expect, and about us sections*/
+#div2 {
+  background-color: rgb(232, 243, 241);
+  padding: 2%;
+  display: inline-block;
 
-    /* the div containing the contact form */
-    #contactID {
-      float: right;
-      width: 50%;
-      background-color: #6fb0bb;
-      /* margin top moves it to be inline with bottom left image */
-      margin-top: 0.5%;
-    }
+}
 
-    /* CSS for the contact form */
+#whatToExpect {
+  width: 50%;
+  padding: 2%;
+  float: left;
+  text-align: justify;
+  text-justify: inter-word;
+}
 
-    /* Style inputs with type="text", select elements and textareas */
-    input[type=text],
-    select,
-    textarea {
-      width: 100%;
-      /* Full width */
-      padding: 12px;
-      /* Some padding */
-      border: 1px solid #ccc;
-      /* Gray border */
-      border-radius: 4px;
-      /* Rounded borders */
-      box-sizing: border-box;
-      /* Make sure that padding and width stays in place */
-      margin-top: 6px;
-      /* Add a top margin */
-      margin-bottom: 16px;
-      /* Bottom margin */
-      resize: vertical
-        /* Allow the user to vertically resize the textarea (not horizontally) */
-    }
+#aboutUs {
+  width: 50%;
+  padding: 2%;
+  float: right;
+  text-align: justify;
+  text-justify: inter-word;
+}
 
-    /* Style the submit button with a specific background color etc */
-    input[type=submit] {
-      background-color: #04AA6D;
-      color: white;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
+#div3 {
+  display: inline-block;
+  background-color: rgba(241, 162, 44, 0.459);
+  width: 100%;
+}
 
-    /* When moving the mouse over the submit button, add a darker green color */
-    input[type=submit]:hover {
-      background-color: #45a049;
-    }
+/* the div containing the contact form */
+#contactID {
+  float: right;
+  width: 50%;
+  background-color: #6fb0bb;
+  /* margin top moves it to be inline with bottom left image */
+  margin-top: 0.5%;
+}
 
-    /* Adds a background color and some padding around the form */
-    .container {
-      width: 100%;
-      border-radius: 5px;
-      background-color: #f2f2f2;
-      padding: 20px;
-      }
+/* CSS for the contact form */
 
-    .whatWeOfferDiv {
-      width: 100%;
-      background-color: #6fb0bb;
-      text-align: justify;
-      /* padding-left: 10%;
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Adds a background color and some padding around the form */
+.container {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.whatWeOfferDiv {
+  width: 100%;
+  background-color: #6fb0bb;
+  text-align: justify;
+  /* padding-left: 10%;
       padding-right: 10%; */
-     
-    }
 
-    .whatWeOfferPara {
-      background-color: rgb(232, 243, 241);
-      padding: 5%;
-      
-    }
+}
 
-    /* this is the formatting for the index.html last div, it forces the footer down to the bottom*/
-    #bottomMainPageDiv {
-      display: inline-block;
-      width: 100%;
-    }
+.whatWeOfferPara {
+  background-color: rgb(232, 243, 241);
+  padding: 5%;
 
-    /* the div containing the last image */
-    #bottomDivImg {
-      width: 50%;
-      float: left;
-    }
+}
 
-    /* the last image itself */
-    #lastImg {
-      width: 100%;
-      padding: 1%;
-    }
+/* this is the formatting for the index.html last div, it forces the footer down to the bottom*/
+#bottomMainPageDiv {
+  display: inline-block;
+  width: 100%;
+}
 
-    footer {
-      margin-top: auto;
-    }
+/* the div containing the last image */
+#bottomDivImg {
+  width: 50%;
+  float: left;
+}
 
-    /* meet the team page */
-    #meetTheTeamBlurbDiv {
-      background-color: #b2e6b5;
-      display: inline-block;
-      width: 100%;
-    }
+/* the last image itself */
+#lastImg {
+  width: 100%;
+  padding: 1%;
+}
 
-    #meetTheTeamPara {
-      width: 50%;
-      float: right;
-      text-align: justify;
-      padding: 4%;
-    }
+footer {
+  margin-top: auto;
+}
 
-    #meetTheTeamBlurbImg {
-      width: 50%;
-      float: left;
-      padding: 4%;
-    }
+/* meet the team page */
+#meetTheTeamBlurbDiv {
+  background-color: #b2e6b5;
+  display: inline-block;
+  width: 100%;
+}
 
-    /* adds CSS to hidden text divs that become visible on small screens*/
-    #whatToExpectHiddenDiv {
-      padding: 4%;
-      text-align: justify;
-    }
+#meetTheTeamPara {
+  width: 50%;
+  float: right;
+  text-align: justify;
+  padding: 4%;
+}
 
-    #aboutUsHiddenDiv {
-      padding: 4%;
-      text-align: justify;
-    }
+#meetTheTeamBlurbImg {
+  width: 50%;
+  float: left;
+  padding: 4%;
+}
 
-    /* Media Queries below............................................ */
+/* adds CSS to hidden text divs that become visible on small screens*/
+#whatToExpectHiddenDiv {
+  padding: 4%;
+  text-align: justify;
+}
 
-
-    /* hides images when page's are < 600px */
-    @media (max-width: 520px) {
-      img#lastImg {
-        display: none;
-      }
-
-      img#firstImg {
-        display: none;
-      }
-
-      img#meetTheTeamBlurbImg {
-        display: none;
-      }
-
-      /* makes the corresoponding text in the divs with images 100% width */
-
-      div#div1 {
-        display: block;
-        width: 100%;
-        text-align: justify;
-      }
-
-      div#contactID {
-        width: 100%;
-        text-align: justify;
-      }
-
-      p#meetTheTeamPara {
-        width: 100%;
-        text-align: justify;
-        padding: 4%;
-      }
-    }
-
-    /* media queries for the ebb and flow logo, this has 2 break points */
-    @media (max-width: 780px) {
-      img#ebbAndFlowLogoImg {
-        margin-top: 90px;
-        max-width: 50%;
-        max-height: 50%;
-
-      }
-    }
-
-    @media (max-width: 520px) {
-      img#ebbAndFlowLogoImg {
-        margin-top: 125px;
-        max-width: 60%;
-        max-height: 60%;
-      }
-    }
-
-    /* hides the div containing about us a what to expect */
-    @media (max-width: 520px) {
-      #div2 {
-        display: none;
-      }
-    }
-
-    /* reveals the hidden about us and what to expect divs on the first page */
-
-    @media (min-width: 520px) {
-      #whatToExpectHiddenDiv {
-        display: none;
-      }
-
-      #aboutUsHiddenDiv {
-        display: none;
-      }
-    }
+#aboutUsHiddenDiv {
+  padding: 4%;
+  text-align: justify;
+}
