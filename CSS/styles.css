@@ -71,12 +71,37 @@ h4 {
   margin: auto;
 }
 
+.flex-container {
+  width: 100%;
+}
+
+#div2 {
+  
+  /* margin-top: 2%; */
+  margin-bottom: 4%;  
+  width: 100%;
+}
+
+.card {
+  margin: auto;
+  margin-top: 4%;
+  
+}
+
 /* div2 holds the 'what can you expect, and about us sections*/
 #div3 {
   background-color: rgb(232, 243, 241);
   padding: 2%;
   display: inline-block;
+}
 
+.btn {
+    margin: auto;
+    display: block;
+}
+
+.card-title {
+  text-align: center;
 }
 
 #whatToExpect {
