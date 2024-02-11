@@ -1,34 +1,8 @@
-/* keeps the nav bar attached to the top of the screen  */
-#navBar {
-  position: fixed;
-  /* z-index sets which div's the current one is in front of or behind */
-  z-index: 1;
-  top: 0;
-  width: 100%;
-  background-color: rgb(255, 255, 255);
-  padding: 1vh;
 
+.wrapper {
+  display: flex;
 }
 
-/* text colour in the nav bar. Needs to have "!important" to override bootstrap settings */
-.nav-link {
-  color: black !important;
-}
-
-/* .nav-link.active targets the coloured nav button */
-.nav-link.active {
-  background-color: #6fb0bb !important;
-}
-
-#navBarTitle {
-  display: inline;
-  font-family: zap4;
-}
-
-/* this moves the dropdown menus to the right within the nav bar */
-#navMenus {
-  float: right;
-}
 
 h2 {
   text-align: center;
@@ -56,49 +30,49 @@ h4 {
 }
 
 /* contains the image in the 'welcome to ebb and flow' div (div1) */
-#div0 {
+/* #div0 {
   margin-bottom: 4%;
   width: 50%;
   float: left;
   background-color: #6fb0bb;
   
-}
+} */
 
 /* CSS for the image in div0 */
-#firstImg {
+/* #firstImg {
   width: 100%;
   padding: 2%;
   background-color: rgb(255, 255, 255);
-}
+} */
 
 /* div1 holds the left place holder image and intro blurb on the right */
 /* display in-line block forces the div below down and prevents overlap */
 #div1 {
-  /* display: inline-block; */
-  padding: 2%;
-  /* background-color: rgba(175, 194, 67, 0.459); */
-  width: 50%;
-  float: right;
+  display: block;
+  margin: auto;
+  padding: 4%;
+  background-color: rgba(212, 227, 228, 0.459);
+  width: 100%;
 }
 
 /* intro text on the right */
 #introWords {
-  text-align: center;
-  vertical-align: middle;
+  /* text-align: center; */
+  /* vertical-align: middle; */
   /* set the margin of the p tag in the parent div */
-  margin: 8%;
-
-  padding: 2%;
+  /* margin: 1%; */
+  /* padding: 2%; */
   font-size: large;
   background-color: #6fb0bb;
-
   text-align: justify;
-  text-justify: inter-word;
-
+  /* text-justify: inter-word; */
+  width: 50%;
+  display: block;
+  margin: auto;
 }
 
 /* div2 holds the 'what can you expect, and about us sections*/
-#div2 {
+#div3 {
   background-color: rgb(232, 243, 241);
   padding: 2%;
   display: inline-block;
@@ -121,7 +95,7 @@ h4 {
   text-justify: inter-word;
 }
 
-#div3 {
+#div4 {
   display: inline-block;
   background-color: rgba(241, 162, 44, 0.459);
   width: 100%;

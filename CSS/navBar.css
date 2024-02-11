@@ -1,0 +1,33 @@
+/* keeps the nav bar attached to the top of the screen  */
+#navBar {
+    position: fixed;
+    /* z-index sets which div's the current one is in front of or behind */
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 1vh;
+  
+  }
+  
+  /* text colour in the nav bar. Needs to have "!important" to override bootstrap settings */
+  .nav-link {
+    color: black !important;
+  }
+  
+  /* .nav-link.active targets the coloured nav button */
+  .nav-link.active {
+    background-color: #6fb0bb !important;
+  }
+  
+  #navBarTitle {
+    display: inline;
+    font-family: zap4;
+  }
+  
+  /* this moves the dropdown menus to the right within the nav bar */
+  #navMenus {
+    float: right;
+  }
+  
+  

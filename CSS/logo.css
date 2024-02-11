@@ -5,13 +5,13 @@
     /* adds a background image to the div */
   
     /* background-color: hsl(184, 83%, 72%); */
-    background-image: url(images/water.jpg);
+    background-image: url(../images/water.jpg);
 
     background-repeat: no-repeat;
     background-size: cover;
     
     width: 100%;
-
+    
   }
 
   
@@ -38,8 +38,8 @@ padding-bottom: 1%;
 /* give rounded corners */
 border-radius: 200px;
     
-    opacity: 0.977;
-    box-shadow: 0 0 45px 70px #ffffff;
+/* opacity: 0.977; */
+box-shadow: 0 0 45px 70px #ffffff;
 
     /* background: radial-gradient(ellipse 65% 40%, transparent 0, transparent 90%, rgb(255, 255, 255) 90%); */
     
