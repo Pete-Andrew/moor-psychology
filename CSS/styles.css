@@ -88,7 +88,7 @@ h4 {
   
 }
 
-/* div2 holds the 'what can you expect, and about us sections*/
+/* div2 holds the bootstrap cards*/
 #div3 {
   background-color: rgb(232, 243, 241);
   padding: 2%;
@@ -104,8 +104,14 @@ h4 {
   text-align: center;
 }
 
+.card-text {
+  text-align: justify;
+}
+
+/* bootstrap cards end */
+
 #whatToExpect {
-  width: 50%;
+  width: 100%;
   padding: 2%;
   float: left;
   text-align: justify;
@@ -113,7 +119,7 @@ h4 {
 }
 
 #aboutUs {
-  width: 50%;
+  width: 100%;
   padding: 2%;
   float: right;
   text-align: justify;

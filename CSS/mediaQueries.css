@@ -76,12 +76,12 @@
   
       /* reveals the hidden about us and what to expect divs on the first page */
   
-      @media (min-width: 520px) {
+      /* @media (min-width: 520px) {
         #whatToExpectHiddenDiv {
           display: none;
-        }
+        } */
   
-        #aboutUsHiddenDiv {
+        /* #aboutUsHiddenDiv {
           display: none;
         }
-      }
+      } */
