@@ -7,7 +7,7 @@
     width: 100%;
     background-color: rgb(255, 255, 255);
     padding: 1vh;
-  
+    box-shadow: 0px 0px 10px #6fb0bb;
   }
   
   /* text colour in the nav bar. Needs to have "!important" to override bootstrap settings */
