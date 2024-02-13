@@ -29,39 +29,18 @@ h4 {
   height: 70px;
 }
 
-/* contains the image in the 'welcome to ebb and flow' div (div1) */
-/* #div0 {
-  margin-bottom: 4%;
-  width: 50%;
-  float: left;
-  background-color: #6fb0bb;
-  
-} */
-
-/* CSS for the image in div0 */
-/* #firstImg {
-  width: 100%;
-  padding: 2%;
-  background-color: rgb(255, 255, 255);
-} */
-
 /* div1 holds the left place holder image and intro blurb on the right */
 /* display in-line block forces the div below down and prevents overlap */
 #div1 {
   display: block;
   margin: auto;
   padding: 4%;
-  background-color: rgba(212, 227, 228, 0.459);
+  background-color: rgba(255, 255, 255, 0.459);
   width: 100%;
 }
 
 /* intro text on the right */
 #introWords {
-  /* text-align: center; */
-  /* vertical-align: middle; */
-  /* set the margin of the p tag in the parent div */
-  /* margin: 1%; */
-  /* padding: 2%; */
   font-size: large;
   background-color: #6fb0bb;
   text-align: justify;
@@ -98,6 +77,11 @@ h4 {
 .btn {
     margin: auto;
     display: block;
+}
+
+.btn-primary {
+  background-color: #6fb0bb !important;
+  border-color: #6fb0bb !important;
 }
 
 .card-title {
