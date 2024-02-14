@@ -4,13 +4,20 @@
   }
   
   a {
-    color: inherit;
+    /* color: inherit; */
+    color: #6fb0bb;
     text-decoration: none;
     transition: all 0.3s;
   }
   
   footer {
-    background: #6fb0bb;   
+    /* background: #6fb0bb;    */
+    background: rgb(232, 243, 241);
+}
+
+#footerBody {
+  text-align: center;
+  background: white;
 }
 
   a:hover, a:focus {
