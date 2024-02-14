@@ -102,13 +102,20 @@ h4 {
   text-justify: inter-word;
 }
 
-#aboutUs {
-  width: 100%;
+#aboutUsImg {
+  width: 50%;
+  float: left;
+  background-image: url(../images/water.jpg);
+}
+
+#aboutUsText {
+  width: 50%;
   padding: 2%;
   float: right;
   text-align: justify;
   text-justify: inter-word;
 }
+
 
 #div4 {
   display: inline-block;
@@ -118,11 +125,11 @@ h4 {
 
 /* the div containing the contact form */
 #contactID {
-  float: right;
-  width: 50%;
+
+  width: 70%;
   background-color: #6fb0bb;
   /* margin top moves it to be inline with bottom left image */
-  margin-top: 0.5%;
+  margin-top: 2%;
 }
 
 /* CSS for the contact form */
@@ -193,11 +200,6 @@ input[type=submit]:hover {
   width: 100%;
 }
 
-/* the div containing the last image */
-#bottomDivImg {
-  width: 50%;
-  float: left;
-}
 
 /* the last image itself */
 #lastImg {
