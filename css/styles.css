@@ -1,3 +1,16 @@
+/* sets text fade in */
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100%{opacity: 1;}
+}
+
+/* body {
+  animation: fadeIn 0.7s;
+} */
+
+p {
+  animation: fadeIn 0.7s;
+}
 
 .wrapper {
   display: flex;
@@ -32,12 +45,15 @@ h4 {
 /* div1 holds the left place holder image and intro blurb on the right */
 /* display in-line block forces the div below down and prevents overlap */
 #div1 {
+  animation: fadeIn 0.8s;
   display: block;
   margin: auto;
   padding: 4%;
   background-color: rgba(255, 255, 255, 0.459);
   width: 100%;
 }
+
+
 
 /* intro text on the right */
 #introWords {
@@ -109,6 +125,7 @@ h4 {
 }
 
 #aboutUsText {
+  animation: fadeIn 0.8s;
   width: 50%;
   padding: 2%;
   float: right;
