@@ -18,3 +18,7 @@
     src: url(../fonts/ZapfinoForteLTPro.otf);
   }
       
+  @font-face {
+    font-family: ReenieBeanie;
+    src: url(../fonts/Reenie\ Beanie\ 500.ttf);
+  }

@@ -18,6 +18,7 @@
 #footerBody {
   text-align: center;
   background: white;
+  margin: auto
 }
 
   a:hover, a:focus {
@@ -27,5 +28,7 @@
 #copyright {
     /* margin:auto; */
     padding-top: 1.5%;
+    padding-bottom: 1.5%;
     text-align: center;
+    background-color: bisque;
 }

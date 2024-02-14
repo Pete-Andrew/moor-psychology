@@ -22,7 +22,9 @@
   
   #navBarTitle {
     display: inline;
-    font-family: zap4;
+    
+    /* font-family: ReenieBeanie; */
+    font-size: xx-large;  
   }
   
   /* this moves the dropdown menus to the right within the nav bar */

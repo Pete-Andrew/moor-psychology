@@ -16,6 +16,10 @@ p {
   display: flex;
 }
 
+/* images in the cards */
+.cardImg {
+  margin-top: 5%;
+}
 
 h2 {
   text-align: center;
@@ -48,7 +52,7 @@ h4 {
   animation: fadeIn 0.8s;
   display: block;
   margin: auto;
-  padding: 4%;
+  padding-top: 4%;
   background-color: rgba(255, 255, 255, 0.459);
   width: 100%;
 }
@@ -58,7 +62,7 @@ h4 {
 /* intro text on the right */
 #introWords {
   font-size: large;
-  background-color: #6fb0bb;
+  /* background-color: #6fb0bb; */
   text-align: justify;
   /* text-justify: inter-word; */
   width: 50%;
