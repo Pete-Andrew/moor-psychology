@@ -8,6 +8,7 @@
     background-color: rgb(255, 255, 255);
     padding: 1vh;
     box-shadow: 0px 0px 10px #6fb0bb;
+    padding-top: 1%;
   }
   
   /* text colour in the nav bar. Needs to have "!important" to override bootstrap settings */
@@ -21,10 +22,12 @@
   }
   
   #navBarTitle {
-    display: inline;
-    
+    margin-left: 5%;
+    display: inline-block; 
+    /* font-family: zap4; */
     /* font-family: ReenieBeanie; */
-    font-size: xx-large;  
+    font-size: x-large;  
+ 
   }
   
   /* this moves the dropdown menus to the right within the nav bar */
