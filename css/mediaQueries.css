@@ -15,7 +15,7 @@
           display: none;
         }
   
-        /* makes the corresoponding text in the divs with images 100% width */
+        /* makes the corresponding text in the divs with images 100% width */
   
         div#div1 {
           display: block;
@@ -34,7 +34,14 @@
           padding: 4%;
         }
       }
-  
+
+      /* reveals hidden divs and moves pictures into them */
+
+      @media (min-width: 520px) {
+      img#meetTheTeamBlurbImgHidden {
+        display: none;
+      }
+    }
       /* media queries for the ebb and flow logo, this has 2 break points */
       @media (max-width: 780px) {
         img#ebbAndFlowLogoImg {
@@ -74,6 +81,14 @@
           }
       }
   
+      /* adds extra padding for phone screens */
+      @media (max-width: 450px) {
+        .blockingDivForPageTop {
+            height: 180px;
+            
+          }
+      }
+
       /* reveals the hidden about us and what to expect divs on the first page */
   
       /* @media (min-width: 520px) {

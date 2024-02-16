@@ -253,6 +253,13 @@ footer {
   padding: 4%;
 }
 
+#meetTheTeamBlurbImgHidden {
+  width: 50%;
+  padding: 4%;
+  margin: auto;
+  display: block;
+}
+
 /* adds CSS to hidden text divs that become visible on small screens*/
 #whatToExpectHiddenDiv {
   padding: 4%;
@@ -262,4 +269,9 @@ footer {
 #aboutUsHiddenDiv {
   padding: 4%;
   text-align: justify;
+}
+
+#contactContainer {
+  margin-top: 25px;
+
 }
