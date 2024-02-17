@@ -235,10 +235,11 @@ footer {
 
 /* meet the team page */
 #meetTheTeamBlurbDiv {
-  background-color: #b2e6b5;
+  background-color: #ffffff;
   display: inline-block;
   width: 100%;
 }
+
 
 #meetTheTeamPara {
   width: 50%;

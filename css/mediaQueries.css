@@ -2,7 +2,7 @@
 
 
     /* hides images when page's are < 600px */
-    @media (max-width: 520px) {
+    @media (max-width: 650px) {
         img#lastImg {
           display: none;
         }
@@ -28,7 +28,7 @@
           text-align: justify;
         }
   
-        p#meetTheTeamPara {
+        #meetTheTeamPara {
           width: 100%;
           text-align: justify;
           padding: 4%;
@@ -37,7 +37,7 @@
 
       /* reveals hidden divs and moves pictures into them */
 
-      @media (min-width: 520px) {
+      @media (min-width: 650px) {
       img#meetTheTeamBlurbImgHidden {
         display: none;
       }
