@@ -53,6 +53,7 @@ h4 {
   display: block;
   margin: auto;
   padding-top: 4%;
+  padding-bottom: 4%;
   background-color: rgba(255, 255, 255, 0.459);
   width: 100%;
 }
@@ -199,6 +200,8 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  margin-bottom: 4%;
+  margin-top: 4%;
 }
 
 .whatWeOfferDiv {

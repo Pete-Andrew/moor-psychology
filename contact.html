@@ -59,6 +59,10 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script> -->
 
 
+<div>
+  <h2>Contact</h2>
+</div>
+
  <!-- contains cards for links -->
 
  <div id="div2" class="flex-container flex-direction: row">
@@ -66,7 +70,7 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
   <div id="card1" class="card" style="width: 18rem;">
     <img class="cardImg" src="images/istock_1.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">For Children</h5>
+      <h5 class="card-title">Address</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
         content.</p>
       <a href="whatWeOffer.html#forChildren" class="btn btn-primary">Find out more</a>
@@ -76,7 +80,7 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
   <div id="card2" class="card" style="width: 18rem;">
     <img class="cardImg" src="images/istock_2.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">For Young People</h5>
+      <h5 class="card-title">Email</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
         content.</p>
       <a href="whatWeOffer.html#forYoungPeople" class="btn btn-primary">Find out more</a>
@@ -86,7 +90,7 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
   <div id="card3" class="card" style="width: 18rem;">
     <img class="cardImg" src="images/istock_1.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">For Families</h5>
+      <h5 class="card-title">Opening Times</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
         content.</p>
       <a href="whatWeOffer.html#forFamilies" class="btn btn-primary">Find out more</a>
@@ -96,7 +100,7 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
   <div id="card4" class="card" style="width: 18rem;">
     <img class="cardImg" src="images/istock_2.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">For Parents</h5>
+      <h5 class="card-title">Telephone</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
         content.</p>
       <a href="whatWeOffer.html#forParents" class="btn btn-primary">Find out more</a>
@@ -112,28 +116,32 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
   <!-- contact form -->
   <div class="container" id="contactContainer">
+  
+    <h2>Contact Form</h2>
+  
     <form action="https://formsubmit.co/Email@Here.com" method="POST">
-
+  
       <label for="fname">First Name</label>
       <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-
+  
       <label for="lname">Last Name</label>
       <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-
+  
       <label for="lname">Email Address</address></label>
       <input type="text" id="emailAddress" name="emailAdress" placeholder="email address" required>
-
+  
       <label for="lname">Phone Number</label>
       <input type="text" id="phoneNumber" name="phoneNumber" placeholder="preferred phone number" required>
-
+  
       <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Please enter message here" style="height:200px" required></textarea>
-
+      <textarea id="subject" name="subject" placeholder="Please enter message here" style="height:200px"
+        required></textarea>
+  
       <input type="submit" value="Submit"></button>
-
+  
     </form>
   </div>
-
+  
   </div>
   <!-- end of contact form -->
 
