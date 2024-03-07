@@ -90,6 +90,21 @@ h4 {
   
 }
 
+#whatIsAClinicalPsychologist {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#whatIsAClinicalPsychologistInnerDiv{
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+#whatIsAClinicalPsychologistText {
+  text-align: center;
+  text-align: justify;
+}
+
 /* div2 holds the bootstrap cards*/
 #div3 {
   background-color: rgb(232, 243, 241);
