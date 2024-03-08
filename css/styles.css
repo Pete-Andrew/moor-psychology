@@ -301,3 +301,29 @@ footer {
   width: 100%;
 }
 
+#forChildrenText {
+  width: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-justify: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#forYoungPeopleText {
+  width: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-justify: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#forParentsText {
+  width: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-justify: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
