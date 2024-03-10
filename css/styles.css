@@ -83,23 +83,16 @@ h4 {
   width: 100%;
 }
 
-#div2 {
-  
-  /* margin-top: 2%; */
-  margin-bottom: 4%;  
-  width: 100%;
-}
-
 .card {
   margin: auto;
   margin-top: 4%;
   
 }
 
-#whatYouCanExpect {
+#whatYouCanExpectDiv {
   display: block;
   width: 100%;
-  margin-top: 4%;
+  margin-top: %;
   margin-bottom: 4%;
 }
 
@@ -113,8 +106,8 @@ h4 {
 #whatIsAClinicalPsychologistDiv {
   display: block;
   width: 100%;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 
 #whatIsAClinicalPsychologistText {
@@ -129,8 +122,11 @@ h4 {
 /* div2 holds the bootstrap cards*/
 #div3 {
   background-color: rgb(232, 243, 241);
+  /* padding moves the about us title down */
   padding: 2%;
   display: inline-block;
+  /* margin bottom moves the 'what you can expect' div title down */
+  margin-bottom: 4%;
 }
 
 .btn {
