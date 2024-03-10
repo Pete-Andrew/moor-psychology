@@ -6,7 +6,13 @@
 
 /* body {
   animation: fadeIn 0.7s;
+
+  
 } */
+
+#anchor {
+  scroll-margin-top: -200px;
+}
 
 p {
   animation: fadeIn 0.7s;
@@ -90,20 +96,35 @@ h4 {
   
 }
 
-#whatIsAClinicalPsychologist {
-  margin-top: 2%;
-  margin-bottom: 2%;
+#whatYouCanExpect {
+  display: block;
+  width: 100%;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 
-#whatIsAClinicalPsychologistInnerDiv{
+#whatYouCanExpectText {
+  text-align: center;
+  text-align: justify;
   margin-left: 4%;
   margin-right: 4%;
+}
+
+#whatIsAClinicalPsychologistDiv {
+  display: block;
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 #whatIsAClinicalPsychologistText {
   text-align: center;
   text-align: justify;
+  margin-left: 4%;
+  margin-right: 4%;
 }
+
+
 
 /* div2 holds the bootstrap cards*/
 #div3 {
@@ -132,30 +153,13 @@ h4 {
 
 /* bootstrap cards end */
 
-#whatToExpect {
+#aboutUs {
   width: 100%;
   padding: 2%;
   float: left;
   text-align: justify;
   text-justify: inter-word;
 }
-
-#aboutUsImg {
-  padding: 2%;
-  width: 50%;
-  float: left;
-  /* background-image: url(../images/water.jpg); */
-}
-
-#aboutUsText {
-  animation: fadeIn 0.8s;
-  width: 50%;
-  padding: 2%;
-  float: right;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
 
 #div4 {
   display: inline-block;
@@ -280,6 +284,9 @@ footer {
   margin: auto;
   display: block;
 }
+
+
+
 
 /* adds CSS to hidden text divs that become visible on small screens*/
 #whatToExpectHiddenDiv {
