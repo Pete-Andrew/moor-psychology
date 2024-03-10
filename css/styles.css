@@ -89,10 +89,11 @@ h4 {
   
 }
 
-#whatYouCanExpectDiv {
+#whatYouCanExpectInnerDiv {
+  background-color: aqua;
   display: block;
   width: 100%;
-  margin-top: %;
+  margin-top: 4%;
   margin-bottom: 4%;
 }
 
@@ -104,6 +105,7 @@ h4 {
 }
 
 #whatIsAClinicalPsychologistDiv {
+  background-color: #80ebc3;
   display: block;
   width: 100%;
   margin-top: 4%;
@@ -118,15 +120,12 @@ h4 {
 }
 
 
-
 /* div2 holds the bootstrap cards*/
 #div3 {
   background-color: rgb(232, 243, 241);
   /* padding moves the about us title down */
   padding: 2%;
   display: inline-block;
-  /* margin bottom moves the 'what you can expect' div title down */
-  margin-bottom: 4%;
 }
 
 .btn {
