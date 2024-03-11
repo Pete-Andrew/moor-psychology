@@ -3,7 +3,7 @@
 #logoDiv {
     display: inline-block;
     /* adds a background image to the div */
-    background: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255, 0)), url(../images/cornwall_whitebeach.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255, 0)), url(../images/bannerImg.jpg);
     
     
 

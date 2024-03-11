@@ -16,6 +16,8 @@
 
 p {
   animation: fadeIn 0.7s;
+  font-family: "Comic Sans MS"
+
 }
 
 .wrapper {
@@ -32,7 +34,7 @@ h2 {
   text-decoration: underline;
   text-underline-offset: 12px;
   text-decoration-thickness: 2px;
-
+  color: #1e6477;
   font-family: zap4;
   font-size: 60pt;
   font-weight: 400;
@@ -62,7 +64,7 @@ h4 {
   margin: auto;
   padding-top: 4%;
   padding-bottom: 4%;
-  background-color: rgba(255, 255, 255, 0.459);
+  background-color: #f0f8f7;
   width: 100%;
 }
 
@@ -71,7 +73,7 @@ h4 {
 /* intro text on the right */
 #introWords {
   font-size: large;
-  /* background-color: #6fb0bb; */
+  background-color: #f0f8f7;
   text-align: justify;
   /* text-justify: inter-word; */
   width: 50%;
@@ -81,6 +83,7 @@ h4 {
 
 .flex-container {
   width: 100%;
+  background-color: #f0f8f7 !important;
 }
 
 .card {
@@ -90,7 +93,7 @@ h4 {
 }
 
 #whatYouCanExpectInnerDiv {
-  background-color: aqua;
+  background-color: #d3ece9;
   display: block;
   width: 100%;
   margin-top: 4%;
@@ -105,7 +108,7 @@ h4 {
 }
 
 #whatIsAClinicalPsychologistDiv {
-  background-color: #80ebc3;
+  background-color: #b8dddc;
   display: block;
   width: 100%;
   margin-top: 4%;
@@ -122,7 +125,7 @@ h4 {
 
 /* div2 holds the bootstrap cards*/
 #div3 {
-  background-color: rgb(232, 243, 241);
+  background-color: #f0f8f7;
   /* padding moves the about us title down */
   padding: 2%;
   display: inline-block;
@@ -310,6 +313,7 @@ footer {
   text-justify: auto;
   margin-top: 2%;
   margin-bottom: 2%;
+  background-color: #f0f8f7;
 }
 
 #forYoungPeopleText {
@@ -319,6 +323,7 @@ footer {
   text-justify: auto;
   margin-top: 2%;
   margin-bottom: 2%;
+  background-color: #f0f8f7;
 }
 
 #forParentsText {
