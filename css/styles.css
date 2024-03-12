@@ -17,6 +17,14 @@
 p {
   animation: fadeIn 0.7s;
   font-family: "Comic Sans MS"
+}
+
+/* see 'fonts.css' to see how to set up fonts */
+.testimonial {
+  font-family: "ReenieBeanie";
+  font-size: xx-large;
+  text-align: center;
+  text-justify: auto;
 
 }
 
