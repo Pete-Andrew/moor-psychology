@@ -1,15 +1,17 @@
 
 /* centers the logo and sets size */
 #logoDiv {
-    display: inline-block;
+  display: block;
     /* adds a background image to the div */
-    background: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255, 0)), url(../images/bannerImg.jpg);
-    
-    
+    /* background: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255, 0)), url(../images/bannerImg.jpg); */
+  background-image: url("/images/bannerImg.jpg");
+  height: 25%;
 
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
+  /* object cover then forces it to maintain it's dimensions */
+  object-fit: cover;
+  /* background-repeat: no-repeat; */
+  /* object-position: right 0px bottom -5em; 20px from right and 2em from bottom */
+  width: 100%;
     
   }
 
@@ -17,29 +19,24 @@
 #ebbAndFlowLogoImg {
 
   /* amending this width changes the height of the background image div */
-width: 35%;
-       
+width: 35%;   
     /* margin auto and display block center an image in a div */
     /* centers the image in the div */
 margin: auto;
 display: block;
 
-
 margin-top: 1%;
 margin-bottom: 1%;
    
-/* background-color: #ffffff; */
-    
+/* background-color: #ffffff; */   
 padding-left: 4%;
 padding-right: 4%;
 padding-top: 1%;
 padding-bottom: 1%; 
 
-
 background: rgb(255, 255, 255, 0.9);
 /* softens the edges */
 /* box-shadow: 0 0 40px 40px  rgb(255, 255, 255, 0.5); */
-
 
 /* give rounded corners */
 /* border-radius: 200px; */

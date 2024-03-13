@@ -10,6 +10,24 @@
   
 } */
 
+#nautilusDiv {
+  background-color: #f0f8f7; 
+}
+
+#nautilusImg {
+  /* setting hight in VH constrains the size of the image  */
+  height: 60vh;
+  /* object cover then forces it to maintain it's dimensions */
+  object-fit: cover;
+  object-position: right 0px bottom -5em; /* 20px from right and 2em from bottom */
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  
+}
+
 #anchor {
   scroll-margin-top: -200px;
 }
