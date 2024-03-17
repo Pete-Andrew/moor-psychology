@@ -28,10 +28,10 @@
     });
   </script>
   <!--end of Navigation bar-->
-
+  
   <!-- this div provides white space so the logo is not hidden behind the nav bar -->
   <div class="blockingDivForPageTop"></div>
-
+  
   <!-- this div contains the logo header -->
   <div id="logoDiv">
     <img id="waterBackground">
@@ -40,39 +40,282 @@
     </div>
     <img id="whiteCloud">
   </div>
-
-<div>
-  <h2>Frequent Asked Questions for Children</h2>
-</div>
-
-<div id="nautilusDiv">
-  <img src="images/faqChildImg.jpg">
-</div>
-
-<div id="card3" class="card" style="width: 28rem;">
-  <img class="cardImg" src="images/wwoFamilies.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">For Families</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-      content.</p>
-    
-
-    <p>
-      <!-- <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-        Link with href
-      </a> -->
-      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-        Button with data-bs-target
-      </button>
-    </p>
-    <div class="collapse" id="collapseExample">
-      <div class="card card-body">
-        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+  
+  <div>
+    <h2>Frequent Asked Questions for Children</h2>
+  </div>
+  
+  <div id="nautilusDiv">
+    <img src="images/faqChildImg.jpg">
+  </div>
+  
+  <!-- bootstrap cards with expanding text -->
+  <!-- class="d-flex flex-row" wraps whole div to make the cards align horizontally -->
+  <div class="d-flex flex-row">
+    <!-- card 1-->
+    <div id="card1" class="card" style="width: 28rem;">
+      <img class="cardImg" src="images/wwoFamilies.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">How do I know what therapy is right for my child?
+        </h5>
+        <p class="card-text">
+          <!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
+        </p>
+        <p>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1"
+            aria-expanded="false" aria-controls="collapseExample">
+            find out more...
+          </button>
+        </p>
+        <div class="collapse" id="collapseExample1">
+          <div class="card card-body">
+            We will use our assessment to guide you about what therapy would be most helpful for your child and family.
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- card 2 -->
+    <div id="card2" class="card" style="width: 28rem;">
+      <img class="cardImg" src="images/wwoFamilies.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">What should I do if I am worried about mine or my child’s risk?
+  
+        </h5>
+        <p class="card-text">
+          <!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
+        </p>
+        <p>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2"
+            aria-expanded="false" aria-controls="collapseExample">
+            find out more...
+          </button>
+        </p>
+        <div class="collapse" id="collapseExample2">
+          <div class="card card-body">
+            If you are concerned about yours or your child’s risk contact 111 or 999. Please do not contact your therapist
+            as we do not offer an emergency service.
+            If your child is known to CAMHS you can call the crisis team.
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- card 3 -->
+    <div id="card3" class="card" style="width: 28rem;">
+      <img class="cardImg" src="images/wwoFamilies.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">How many therapy sessions will my child or family need?
+        </h5>
+        <p class="card-text">
+          <!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
+        </p>
+        <p>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3"
+            aria-expanded="false" aria-controls="collapseExample">
+            find out more...
+          </button>
+        </p>
+        <div class="collapse" id="collapseExample3">
+          <div class="card card-body">
+            It is difficult to say how much therapy you or your child may need as it will depend on what you are seeking
+            support for.
+            We can think about this with you in the assessment sessions and plan therapy around your goals and budget.
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- second row of div bootstrap cards -->
+  
+  <!-- bootstrap cards with expanding text -->
+  <!-- class="d-flex flex-row" wraps whole div to make the cards align horizontally -->
+  <div class="d-flex flex-row">
+    <!-- card 4-->
+    <div id="card4" class="card" style="width: 28rem;">
+      <img class="cardImg" src="images/wwoFamilies.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Will my child’s sessions be confidential?
+  
+        </h5>
+        <p class="card-text">
+          <!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
+        </p>
+        <p>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4"
+            aria-expanded="false" aria-controls="collapseExample">
+            find out more...
+          </button>
+        </p>
+        <div class="collapse" id="collapseExample4">
+          <div class="card card-body">
+            You and your child have the right to a confidential relationship, within certain legal limits. Under certain
+            legally defined situations, we have a duty under penalty of law and duty of care to reveal information to
+            other persons without your written consent. These situations include:
+            If you reveal information that indicates you or someone else, or your child, are at risk of harm or abuse.
+            If your child discloses abuse.
+            If your child is in therapy or being tested due to an order of a court or lawyer, the results of the treatment
+            ordered must be revealed to that court or lawyer.
+            If a court of law issues a legitimate order, we are required by law to provide the information specifically
+            described in that court order.
+  
+            With the exception of the situations defined above information revealed by you during the course of therapy
+            will be kept completely confidential. Any records will include only information relevant for current
+            therapeutic purposes. Any information will be kept securely and in line with guidance on storing medical
+            notes.
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- card 5 -->
+    <div id="card5" class="card" style="width: 28rem;">
+      <img class="cardImg" src="images/wwoFamilies.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Can my Childs therapist talk to other professionals involved in my child’s care?
+  
+  
+        </h5>
+        <p class="card-text">
+          <!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
+        </p>
+        <p>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5"
+            aria-expanded="false" aria-controls="collapseExample">
+            find out more...
+          </button>
+        </p>
+        <div class="collapse" id="collapseExample5">
+          <div class="card card-body">
+            If you give permission your child’s therapist can write to other professionals involved in your child’s care.
+            Please be aware this will not be done without your written consent expect within the context of there being
+            concerns about your child’s safely or child protection, in which case this can be done without your consent.
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- card 6 -->
+    <div id="card6" class="card" style="width: 28rem;">
+      <img class="cardImg" src="images/wwoFamilies.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">What if I can’t make my appointment?
+  
+          <p class="card-text">
+            <!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
+          </p>
+          <p>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample6"
+              aria-expanded="false" aria-controls="collapseExample">
+              find out more...
+            </button>
+          </p>
+          <div class="collapse" id="collapseExample6">
+            <div class="card card-body">
+              Appointments can be cancelled once booked but unfortunately if you give less than 24 hours notice the
+              appointment will need to be paid for in full. This is because we cannot offer this to another to someone
+              else.
+  
+            </div>
+          </div>
+      </div>
+    </div>
+  
+  
+  </div>
+  
+  <!-- third row of div bootstrap cards -->
+  
+  <!-- bootstrap cards with expanding text -->
+  <!-- class="d-flex flex-row" wraps whole div to make the cards align horizontally -->
+  <div class="d-flex flex-row">
+    <!-- card 7-->
+    <div id="card7" class="card" style="width: 28rem;">
+      <img class="cardImg" src="images/wwoFamilies.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">How do I pay for appointments?
+  
+        </h5>
+        <p class="card-text">
+          <!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
+        </p>
+        <p>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4"
+            aria-expanded="false" aria-controls="collapseExample">
+            find out more...
+          </button>
+        </p>
+        <div class="collapse" id="collapseExample4">
+          <div class="card card-body">
+            Appointment are invoiced when they booked and payment is due 48 hours prior to the appointment by direct bank
+            transfer.
+            Without payment the appointment will be cancelled. You are welcome to rebook.
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- card 8 -->
+    <div id="card8" class="card" style="width: 28rem;">
+      <img class="cardImg" src="images/wwoFamilies.jpg" class="card-img-top" alt="...">
+      <div class="card-body ">
+        <h5 class="card-title">What are the costs of therapy?
+  
+        </h5>
+  
+        <p class="card-text">
+          <!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
+        </p>
+        <p>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5"
+            aria-expanded="false" aria-controls="collapseExample">
+            find out more...
+          </button>
+        </p>
+        <div class="collapse" id="collapseExample5">
+          <div class="card card-body">
+            Costs for therapy range from £110 to £120 pounds per session.
+            The costs reflect the high level of training Clinical psychologists have (link) to what is a clinical
+            psychologist
+            Group rates will depend on size of the groups.
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- card 9 -->
+    <div id="card9" class="card" style="width: 28rem;">
+      <img class="cardImg" src="images/wwoFamilies.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Do you work with insurance and private health care companies?
+  
+  
+          <p class="card-text">
+            <!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
+          </p>
+          <p>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample6"
+              aria-expanded="false" aria-controls="collapseExample">
+              find out more...
+            </button>
+          </p>
+          <div class="collapse" id="collapseExample6">
+            <div class="card card-body">
+              At Ebb and Flow we are registered with a number of insurance companies so please get in touch if you have
+              private health care cover.
+            </div>
+          </div>
       </div>
     </div>
 
-  </div>
+ 
 </div>
+
 
   <!-- footer bar -->
   <div id="footer-placeholder">

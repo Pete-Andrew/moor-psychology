@@ -44,7 +44,7 @@ p {
   font-family: "ReenieBeanie";
   font-size: xx-large;
   text-align: center;
-  text-justify: auto;
+  text-justify: inter-word;
 
 }
 
