@@ -82,7 +82,9 @@ h4 {
   height: 70px;
 }
 
-
+#holdingShellImg {
+  max-width: 600px;
+}
 
 /* div1 holds the left place holder image and intro blurb on the right */
 /* display in-line block forces the div below down and prevents overlap */
