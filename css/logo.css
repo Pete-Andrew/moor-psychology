@@ -4,7 +4,7 @@
   display: block;
     /* adds a background image to the div */
     /* background: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255, 0)), url(../images/bannerImg.jpg); */
-  background-image: url("/images/bannerImg.jpg");
+  background-image: url("/images/seaCropped.jpg");
   height: 25%;
 
   /* object cover then forces it to maintain it's dimensions */

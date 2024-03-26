@@ -16,10 +16,11 @@
 
 #nautilusImg {
   /* setting hight in VH constrains the size of the image  */
-  height: 60vh;
+  /* height: 60vh; */
   /* object cover then forces it to maintain it's dimensions */
-  object-fit: cover;
-  object-position: right 0px bottom -5em; /* 20px from right and 2em from bottom */
+  /* object-fit: cover; */
+  /* object-position: right 0px bottom -5em;  */
+  /* 20px from right and 2em from bottom */
   
   display: block;
   margin-left: auto;
@@ -109,6 +110,7 @@ h4 {
   width: 50%;
   display: block;
   margin: auto;
+  
 }
 
 .flex-container {
@@ -163,6 +165,7 @@ h4 {
   
 }
 
+/* keeps the text to the right */
 #aboutUsTextDiv{
  width: 50%;
  float: right;
@@ -170,6 +173,7 @@ h4 {
  
 }
 
+/* keeps the image to the left */
 #aboutUsImg {
   float: left;
   width: 50%;
