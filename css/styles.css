@@ -385,3 +385,27 @@ footer {
   margin-top: 2%;
   margin-bottom: 2%;
 }
+
+#faqAdultsImg {
+  width: 35%; 
+  margin: auto;
+  display: block;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#faqChildImg {
+  width: 35%; 
+  margin: auto;
+  display: block;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#contactImg {
+    width: 40%; 
+    margin: auto;
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
