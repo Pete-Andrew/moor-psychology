@@ -165,6 +165,7 @@ h4 {
  width: 50%;
  float: right;
  padding: 2%;
+ padding-top: 6%;
  }
 
 
@@ -290,13 +291,15 @@ input[type=submit]:hover {
   text-align: justify;
   /* padding-left: 10%;
       padding-right: 10%; */
-
 }
 
 .whatWeOfferPara {
   background-color: rgb(232, 243, 241);
   padding: 5%;
+}
 
+#whatWeOfferH2 {
+  padding-top: 6%;
 }
 
 /* this is the formatting for the index.html last div, it forces the footer down to the bottom*/
@@ -420,8 +423,9 @@ footer {
     margin-bottom: 2%;
   }
 
+
   #adultEMDRGroupImg {
-  width: 35%; 
+  width: 40%; 
   margin: auto;
   display: block;
   margin-top: 2%;
@@ -429,6 +433,21 @@ footer {
   }
   
   #whatWeOfferH2 {
-    
-    background-color: #f0f8f7;
+        background-color: #f0f8f7;
+  }
+
+  #forProfessionalsImg1 {
+    width: 60%; 
+    margin: auto;
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  #forProfessionalsImg2 {
+    width: 60%; 
+    margin: auto;
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
