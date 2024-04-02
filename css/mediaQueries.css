@@ -23,11 +23,6 @@
           text-align: justify;
         }
   
-        div#contactID {
-          width: 100%;
-          text-align: justify;
-        }
-  
         #meetTheTeamPara {
           width: 100%;
           text-align: justify;
@@ -82,21 +77,4 @@
           }
       }
 
-      /* reveals the hidden about us and what to expect divs on the first page */
-      @media (min-width: 700px) {
-        #aboutUsImgHidden {
-          display: none;
-        }
-
-      }
-
- 
-    @media (max-width: 700px) {
-          #aboutUsImg {
-          display: none;
-        }
-
-        #aboutUsText {
-          width: 100%;
-        }
-      }
+      

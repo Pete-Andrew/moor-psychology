@@ -4,24 +4,18 @@
   100%{opacity: 1;}
 }
 
-/* body {
+body {
   animation: fadeIn 0.7s;
-
+  /* inline-block seems to cause thin white space between divs. Applying a background colour to the body makes them invisible */
+  background-color: #f0f8f7; 
   
-} */
+}
 
 #nautilusDiv {
   background-color: #f0f8f7; 
 }
 
 #nautilusImg {
-  /* setting hight in VH constrains the size of the image  */
-  /* height: 60vh; */
-  /* object cover then forces it to maintain it's dimensions */
-  /* object-fit: cover; */
-  /* object-position: right 0px bottom -5em;  */
-  /* 20px from right and 2em from bottom */
-  
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -58,6 +52,7 @@ p {
   margin-top: 5%;
 }
 
+/* all the H2 titles */
 h2 {
   padding-top: 3%;
   padding-bottom: 2%;
@@ -69,8 +64,7 @@ h2 {
   font-family: zap4;
   font-size: 60pt;
   font-weight: 400;
-  background-color: #f0f8f7;
-  
+  background-color: #f0f8f7; 
 }
 
 h4 {
@@ -131,8 +125,6 @@ h4 {
   background-color: #d3ece9;
   display: block;
   width: 100%;
-  margin-top: 4%;
-  margin-bottom: 4%;
 }
 
 #whatYouCanExpectText {
@@ -173,8 +165,16 @@ h4 {
  width: 50%;
  float: right;
  padding: 2%;
- 
+ }
+
+
+/* keeps the text to the right */
+#aboutUsTextDiv2{
+  width: 50%;
+  float: right;
+  padding: 2%;
 }
+ 
 
 /* keeps the image to the left */
 #aboutUsImg {
@@ -184,6 +184,13 @@ h4 {
   margin-top: 5%;
 }
 
+#aboutUsImg2 { 
+  float: left;
+  width: 50%;
+  padding: 1.5%;
+  margin-top: 0%;
+
+}
 
 .btn {
     margin: auto;
@@ -413,7 +420,14 @@ footer {
     margin-bottom: 2%;
   }
 
-
+  #adultEMDRGroupImg {
+  width: 35%; 
+  margin: auto;
+  display: block;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  }
+  
   #whatWeOfferH2 {
     
     background-color: #f0f8f7;
