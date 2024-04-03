@@ -441,7 +441,7 @@ footer {
   }
   
   #whatWeOfferH2 {
-        background-color: #f0f8f7;
+    background-color: #f0f8f7;
   }
 
   #forProfessionalsImg1 {
@@ -458,4 +458,8 @@ footer {
     display: block;
     margin-top: 2%;
     margin-bottom: 2%;
+  }
+
+  #specialistTherapiesChildIntroDiv{
+    text-align: center;
   }
