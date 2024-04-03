@@ -121,30 +121,47 @@ h4 {
   
 }
 
-#whatYouCanExpectH2 {
-  background-color: #d3ece9;
-}
+/* whatCanYouExpect --------------------------------------*/
 
-#whatYouCanExpectInnerDiv {
-  background-color: #d3ece9;
-  display: block;
+#WhatYouCanExpectDiv {
   width: 100%;
+  display: inline-block;
+  background-color: #d3ece9;
+  padding: 2%;
 }
 
 #whatYouCanExpectText {
+  background-color: #d3ece9;
   text-align: center;
   text-align: justify;
-  margin-left: 4%;
-  margin-right: 4%;
+  width: 50%;
+  float: left;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
+#whatYouCanExpectH2 {
+  background-color: #d3ece9;
+  width: 100%;
+}
+
+#whatYouCanExpectImg {
+  width: 50%;
+  float: right;
+  padding: 2%;
+  padding-top: 2%;
+  background-color: #d3ece9;
+}
+
+/* whatIsClinicalPsychologist --------------------- */
+
 #whatIsAClinicalPsychologistH2 {
-  background-color: #b8dddc;
+  background-color: #f0f8f7;
 }
 
 #whatIsAClinicalPsychologistDiv {
-  background-color: #b8dddc;
-  display: block;
+  background-color: #f0f8f7;
+  display: inline-block;
   width: 100%;
   margin-top: 4%;
   margin-bottom: 4%;
@@ -153,10 +170,23 @@ h4 {
 #whatIsAClinicalPsychologistText {
   text-align: center;
   text-align: justify;
-  margin-left: 4%;
-  margin-right: 4%;
+  width: 50%;
+  padding-left: 4%;
+  padding-right: 4%;
+  float: right;
+  background-color: #f0f8f7;
 }
 
+#whatIsAClinicalPsycholgistImg {
+  width: 50%;
+  float: left;
+  padding-right: 4%;
+  padding-left: 4%;
+  padding-top: 2%;
+  background-color: #f0f8f7;
+}
+
+/* --------------------------------------------------- */
 
 /* div2 holds the bootstrap cards*/
 #aboutUsDiv {
