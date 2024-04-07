@@ -57,6 +57,11 @@ p {
   display: flex;
 }
 
+i{
+  color: #6fb0bb;
+  /* color: #1e6477; */
+}
+
 /* images in the cards */
 .cardImg {
   margin-top: 5%;
