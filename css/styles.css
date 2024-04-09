@@ -530,7 +530,11 @@ footer {
   }
 
   .specImg{
-    width: 60%;
+    width: 50%;
     margin: auto;
     display: block;
+  }
+
+  .card-text {
+    text-align: center;
   }
