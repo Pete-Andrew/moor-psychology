@@ -429,10 +429,7 @@ footer {
   display: block;
 }
 
-
-
-
-/* adds CSS to hidden text divs that become visible on small screens*/
+/* adds CSS to hidden text divs that become visible on small screens */
 #whatToExpectHiddenDiv {
   padding: 4%;
   text-align: justify;
@@ -445,7 +442,6 @@ footer {
 
 #contactContainer {
   margin-top: 25px;
-
 }
 
 #aboutUsImgHidden {
@@ -486,7 +482,6 @@ footer {
     margin-bottom: 2%;
   }
 
-
   #adultEMDRGroupImg {
   width: 40%; 
   margin: auto;
@@ -518,7 +513,6 @@ footer {
   #specialistTherapiesChildIntroDiv{
     text-align: center;
   }
-
 
   .forProfessionalsText {
     width: 85%;
