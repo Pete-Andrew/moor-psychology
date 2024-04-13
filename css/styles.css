@@ -146,7 +146,7 @@ h4 {
 
 /* whatCanYouExpect --------------------------------------*/
 
-#WhatYouCanExpectDiv {
+#whatYouCanExpectDiv {
   width: 100%;
   display: inline-block;
   background-color: #d3ece9;
@@ -518,3 +518,31 @@ input[type=submit]:hover {
   .card-text {
     text-align: center;
   }
+
+/* Media query for screens narrower than 1000px */
+@media screen and (max-width: 1000px) {
+  /* Adjust image width to fill 80% of the screen */
+  #aboutUsDiv img,
+  #aboutUsDiv > div:nth-child(1) img,
+  #WhatYouCanExpectDiv > div:nth-child(1) img,
+  #whatIsAClinicalPsychologistDiv > div:nth-child(1) img {
+    width: 80%;
+    max-width: none; /* Override any max-width set in existing CSS */
+    padding: none;
+    display: block; /* Ensures proper centering */
+    margin: 0 auto; /* Centers the images horizontally */
+    float: none;
+    margin-bottom: 4%;
+    margin-top: 4%;
+  }
+
+  /* Adjust text div width to fill 80% of the screen */
+  #aboutUsTextDiv,
+  #whatYouCanExpectText,
+  #whatIsAClinicalPsychologistText {
+    width: 80%;
+    margin: auto; /* Center the text divs */
+    float: none;
+  }
+}
+
