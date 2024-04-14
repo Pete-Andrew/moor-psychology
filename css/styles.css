@@ -83,6 +83,8 @@ h2 {
   font-size: 60pt;
   font-weight: 400;
   background-color: #f0f8f7; 
+  /* scroll margin top gives padding so that the anchor tag will drop you 120px above the target H2 */
+  scroll-margin-top: 110px;
 }
 
 
@@ -543,6 +545,3 @@ input[type=submit]:hover {
     float: none;
   }
 }
-
-/* Media Queries */
-
