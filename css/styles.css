@@ -546,34 +546,3 @@ input[type=submit]:hover {
 
 /* Media Queries */
 
-/* this pads the top of the document and prevents the nav bar covering */
-.blockingDivForPageTop {
-  height: 70px;
-  display: block;
-  width:100%;
-}
-
-@media screen and (max-width: 1530px) {
-  .blockingDivForPageTop {
-    /* display: block; */
-    height: 110px;
-    /* background-color: #1e6477; */
-  }
-}
-
-@media screen and (max-width: 1080px) {
-  .blockingDivForPageTop {
-    /* display: block; */
-    height: 150px;
-    /* background-color: #1e6477; */
-  }
-}
-
-@media screen and (max-width: 670px) {
-  .blockingDivForPageTop {
-    /* display: block; */
-    height: 300px;
-    /* background-color: #1e6477; */
-  }
-}
-

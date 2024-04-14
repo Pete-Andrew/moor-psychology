@@ -37,6 +37,9 @@
         display: none;
       }
     }
+
+
+
       /* media queries for the ebb and flow logo, this has 2 break points */
       @media (max-width: 780px) {
         img#ebbAndFlowLogoImg {
@@ -56,15 +59,56 @@
           max-height: 60%;
         }
 
-        .blockingDivForPageTop {
+        /* .blockingDivForPageTop {
             height: 100px;
             
-          }
+          } */
       }
   
+
+      /* this pads the top of the document and prevents the nav bar covering */
+.blockingDivForPageTop {
+  height: 75px;
+  display: block;
+  width:100%;
+}
+
+@media screen and (max-width: 1530px) {
+  .blockingDivForPageTop {
+    /* display: block; */
+    height: 110px;
+    /* background-color: #1e6477; */
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .blockingDivForPageTop {
+    /* display: block; */
+    height: 150px;
+    /* background-color: #1e6477; */
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .blockingDivForPageTop {
+    /* display: block; */
+    height: 150px;
+    /* background-color: #1e6477; */
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .blockingDivForPageTop {
+    /* display: block; */
+    height: 180px;
+    /* background-color: #1e6477; */
+  }
+}
+
+
       @media (max-width: 510px) {
         .blockingDivForPageTop {
-            height: 130px;
+            height: 180px;
             
           }
       }
@@ -72,7 +116,7 @@
       /* adds extra padding for phone screens */
       @media (max-width: 450px) {
         .blockingDivForPageTop {
-            height: 180px;
+            height: 220px;
             
           }
       }
