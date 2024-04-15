@@ -523,8 +523,8 @@ input[type=submit]:hover {
 @media screen and (max-width: 1000px) {
   /* Adjust image width to fill 80% of the screen */
   #aboutUsDiv img,
+  #whatYouCanExpectImg,
   #aboutUsDiv > div:nth-child(1) img,
-  #WhatYouCanExpectDiv > div:nth-child(1) img,
   #whatIsAClinicalPsychologistDiv > div:nth-child(1) img {
     width: 80%;
     max-width: none; /* Override any max-width set in existing CSS */
