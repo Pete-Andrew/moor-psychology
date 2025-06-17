@@ -379,6 +379,9 @@ input[type=submit]:hover {
   padding: 1%;
 }
 
+h1#lisaTitle {
+  background-color: #D3ECe9;
+}
 
 .privacyPolicies {
   width: 80%;
@@ -392,11 +395,16 @@ input[type=submit]:hover {
 
 /* meet the team page */
 #meetTheTeamBlurbDiv {
-  background-color: #f0f8f7;
+  background-color: #D3ECe9;
   display: inline-block;
   width: 100%;
 }
 
+/* #meetTheTeamBlurbImgHidden {
+  background-color: #D3ECe9;
+  width: 100%;
+  display: inline-block;
+} */
 
 #meetTheTeamPara {
   width: 50%;
